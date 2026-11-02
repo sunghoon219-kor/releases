@@ -1,26 +1,26 @@
 {
   "name": "rmt",
-  "version": "0.3.12",
-  "date": "2026-11-03T08:47:53+09:00",
+  "version": "0.3.13",
+  "date": "2026-11-03T08:55:24+09:00",
   "files": [
     {
-      "name": "rmt-setup-0.3.12.exe",
-      "size": 21914112,
-      "sha256": "16ef4c3d67c84eda1cb0f301f769639852675b17b7bcc4aa6f1936e12b9b7ae5",
-      "url": "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.12/rmt-setup-0.3.12.exe"
+      "name": "rmt-setup-0.3.13.exe",
+      "size": 21913600,
+      "sha256": "e086b8ec9def98928483ab358c2a2b910d79d0f76a0ce57ec42388b2ebe506c6",
+      "url": "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.13/rmt-setup-0.3.13.exe"
     },
     {
-      "name": "rmt-0.3.12-windows-x64.zip",
-      "size": 15587493,
-      "sha256": "297354193c75ece67f6f19895181880e32b7960bf1c64618b6d09802741637b8",
-      "url": "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.12/rmt-0.3.12-windows-x64.zip"
+      "name": "rmt-0.3.13-windows-x64.zip",
+      "size": 15586991,
+      "sha256": "d09452b6cf4ec763f7632282d52e282913f850a7c9e14e932663ee776c3c6928",
+      "url": "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.13/rmt-0.3.13-windows-x64.zip"
     },
     {
-      "name": "rmt-android-0.3.12.apk",
+      "name": "rmt-android-0.3.13.apk",
       "size": 2401086,
-      "sha256": "b66aa35b5ec2b1052e945d22091c8ba8bb4aa97d9085a3140ae650a17c82a0d9",
-      "url": "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.12/rmt-android-0.3.12.apk"
+      "sha256": "7182a546df9dec6291c6062806214b9f93fb987086e7df232b1f845e943eeaab",
+      "url": "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.13/rmt-android-0.3.13.apk"
     }
   ],
-  "signature": "IrnThE2WZV2TDZnAActkoT0CE3wfELY2tvGrY4CZsaOpXjAdxjvOzJVNnxATG/XLpAg6gpaHAfbxAvqNypI9Ag=="
+  "signature": "zJPN/9va8IEn1EoaxGywy8Lm2yw2RcC7IUR6ml4qgE7Ay8Jya/6NiADFOwI/xq/qh0rlCfAZOiD3SVY7iQtzBQ=="
 }
