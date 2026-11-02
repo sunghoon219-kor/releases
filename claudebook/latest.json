@@ -1,20 +1,20 @@
 {
   "name": "ClaudeBook",
-  "version": "0.13.1",
-  "date": "2026-11-03T02:27:23+09:00",
+  "version": "0.13.2",
+  "date": "2026-11-03T02:50:46+09:00",
   "files": [
     {
-      "name": "ClaudeBook-0.13.1-setup.exe",
-      "size": 7524687,
-      "sha256": "d115089c4a9f5512aee9b34e7e516376d9578c644553635e9897d5e6a0c385c1",
-      "url": "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.13.1/ClaudeBook-0.13.1-setup.exe"
+      "name": "ClaudeBook-0.13.2-setup.exe",
+      "size": 7624726,
+      "sha256": "0638739122f3049cbdfef35456239022d775356e8cfd334a9ae83918c4ac95b9",
+      "url": "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.13.2/ClaudeBook-0.13.2-setup.exe"
     },
     {
-      "name": "ClaudeBook-사용가이드-0.13.1.html",
-      "size": 904791,
-      "sha256": "9814a0c20b03041d41d85cc140cb6599a5934b7f256a7d208fec1f28dbfd784a",
-      "url": "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.13.1/ClaudeBook-사용가이드-0.13.1.html"
+      "name": "ClaudeBook-사용가이드-0.13.2.html",
+      "size": 1020331,
+      "sha256": "d86c612eaea131a1efd09034fa5a500ae77f91edab0861717fda096dc861b949",
+      "url": "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.13.2/ClaudeBook-사용가이드-0.13.2.html"
     }
   ],
-  "signature": "OkUvOybMVELmypLkg9OixLLr1ueuRMqeUWXxUCaM/Qjtbhb738s327b5mrHh+dKfO0lsSv7zu9PYT0/1jBq7DA=="
+  "signature": "yZD5jvTltZVGNX3m0TAk5cOk9oFvI38Wb9M01ujgCkBxbVb81g3J/j/7T/Z8IkqDbdEv2g9lYCC/VwlajiPJCg=="
 }
