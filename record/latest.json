@@ -1,0 +1,14 @@
+{
+  "name": "Record",
+  "version": "0.1.3",
+  "date": "2026-11-03T02:24:45+09:00",
+  "files": [
+    {
+      "name": "Record-0.1.3-setup.exe",
+      "size": 5613497,
+      "sha256": "fdc139c930371ce4fce64cd8b39148cf0914104b2361a18450243619387c0098",
+      "url": "https://github.com/sunghoon219-kor/releases/releases/download/record-v0.1.3/Record-0.1.3-setup.exe"
+    }
+  ],
+  "signature": "UyodfmKwTU3CXC1GJoepnt2RNOrDZZFSzIVdtsonJBOa7XRETPKGoUE0P1q2uJYQ8LtXdZ/yOfiDG8A5ln3CDQ=="
+}
