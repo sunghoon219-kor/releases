@@ -1,24 +1,26 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.15.2",
-    "date":  "2026-11-03T12:22:19+09:00",
+    "version":  "0.16.0",
+    "date":  "2026-11-03T14:06:11+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.15.2-setup.exe",
-                      "size":  7889541,
-                      "sha256":  "231e6362bc5f17db68d3d8ad8998b5c1d5dac0a5c4d6de71d1e658072e0ba95a",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.15.2/ClaudeBook-0.15.2-setup.exe"
+                      "name":  "ClaudeBook-0.16.0-setup.exe",
+                      "size":  7922180,
+                      "sha256":  "9eeb06fa140a037851159e84e81a85f2f1ce2e4319ab1fa797ef42f1660b0566",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.16.0/ClaudeBook-0.16.0-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.15.2.html",
-                      "size":  1233249,
-                      "sha256":  "1766f139e57c8c478c1bf6fa08c6487a696b894568f924ed627758b6ba34f76d",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.15.2/ClaudeBook-사용가이드-0.15.2.html"
+                      "name":  "ClaudeBook-사용가이드-0.16.0.html",
+                      "size":  1233719,
+                      "sha256":  "3ce937cc67badc0d11855744cdd4e4b80bcd147a49ca0810123396cf2e28b0d7",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.16.0/ClaudeBook-사용가이드-0.16.0.html"
                   }
               ],
-    "signature":  "WVS3Id0XhU99ldq649gR5yCefJ4uwE26AM3FAC0+X/5c0npr70KZU2tWqfw4MWscByfOr6vC9zeV6YTCLTHVDQ==",
+    "signature":  "Rf7TSZqdI2T23ln7sq/iLy7I0MfaXxjxi6XqzwJPvsTF7YO5WD/KC14aAykU6t31bwmPhthfi+5vaVFbIWt5BQ==",
     "notes":  [
-                  "[새 기능] `/clear 이름`: 지금 대화에 이름을 붙이고 비워요 (카드·지난 세션 찾기에서 그 이름으로 다시 열어요). `/reset`도 `/clear`와 같아요 (Claude Code와 같은 다른 이름)",
-                  "[개선] `/clear`가 / 목록에 한 줄로 \"Clear conversation\"이라고 보이고, conversation·new·reset으로 쳐도 찾아져요. 0.15.1에서 따로 둔 `/clear-conversation` 줄은 같은 동작이라 없앴어요"
+                  "[새 기능] 보드 바꾸기: 보드 이름 옆 ∨를 눌러 이 창에 다른 보드를 열어요. 그 보드가 다른 창에 열려 있으면 두 창이 보드를 맞바꿔요 (자리가 바뀜)",
+                  "[새 기능] 보드의 \"새 세션\": 폴더를 고르면 그 보드에 새 대화 칸이 바로 생겨요 (첫 말을 보내면 시작, 목록에 없는 폴더는 \"다른 폴더 고르기\")",
+                  "[새 기능] 보드 칸의 세션 닫기(머리의 전원 단추·칸 메뉴): claude를 끝내고 보드와 목록에서 빼요. 대화 기록은 남아 카드 메뉴의 \"지난 세션 찾기\"에서 다시 열 수 있어요. 작업 중이면 한 번 더 물어요 (VS Code·터미널에서 연 세션은 그쪽에서 닫음)",
+                  "[개선] 보드의 \"세션 추가\"를 \"세션 열기\"로 이름을 바꿨어요 (있는 세션을 보드에 올리기). 창이 좁으면 새 세션·세션 열기가 아이콘으로 줄어요"
               ]
 }
