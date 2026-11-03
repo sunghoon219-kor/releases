@@ -1,23 +1,37 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.17.2",
-    "date":  "2026-11-03T17:05:25+09:00",
+    "version":  "0.17.3",
+    "date":  "2026-11-03T18:12:10+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.17.2-setup.exe",
-                      "size":  7962252,
-                      "sha256":  "c9a7ac19657096b74f7cfd718131975f345453029178c6233c70e002295b54f1",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.17.2/ClaudeBook-0.17.2-setup.exe"
+                      "name":  "ClaudeBook-0.17.3-setup.exe",
+                      "size":  7974407,
+                      "sha256":  "f2db8d1470be449bdb6df438bef18fbb204fd781d46639f2d96a4b932ebb9200",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.17.3/ClaudeBook-0.17.3-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.17.2.html",
+                      "name":  "ClaudeBook-사용가이드-0.17.3.html",
                       "size":  1234274,
-                      "sha256":  "b1d154692a89b19f08f4ab80dba2f74a4cf6699ea3fce07b578705e57a73f66b",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.17.2/ClaudeBook-사용가이드-0.17.2.html"
+                      "sha256":  "eb0b3f8e00ce6ce2d657cb60a47c81fcc0a0d0fa108d1d050f4087611709c64e",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.17.3/ClaudeBook-사용가이드-0.17.3.html"
                   }
               ],
-    "signature":  "GHF2tT30NIhGGif8RKv9+2qlGQj/PTizK05csroFNSrnv80qgHMnzTuJp1AB6xbJK9qU69H2pphV0flNKLkKBQ==",
+    "signature":  "t0w2H9Opv2eCxb9piMCcB+8+YjLStWVyry1iuZaCAToy1zUkRs0VpKBapvFd3WtzGVp6tTVTAetv51a5bZI/Bg==",
     "notes":  [
-                  "[개선] 설정의 색 테마·글자 밝기 고르기를 키보드로도 다룰 수 있어요 (포커스 표시, 화면 낭독기 이름). 화면 부품을 rmt·Record와 같은 것으로 정리해 세 프로그램의 모양이 같이 따라가요"
+                  "[수정] Claude가 작업 중일 때 Esc로 메뉴·목록·그림 확대를 닫거나, 대기열 글 고치기·이름 고치기·찾기 칸에서 Esc를 눌러도 claude가 멈추던 것 (이제 입력칸에 있거나 아무것도 열려 있지 않을 때만 멈춤)",
+                  "[수정] 에이전트 줄을 펼쳐 두면 화면을 쉬지 않고 다시 그려 CPU를 쓰던 것",
+                  "[수정] 세션을 닫고 곧바로 같은 세션에 보내면, 닫은 claude의 늦은 \"끝남\" 알림이 새로 띄운 claude를 끊어 보낸 말이 사라질 수 있던 것",
+                  "[수정] 보드에서 세션을 닫아도 옆 칸·대화 창에 같은 세션이 남아, 거기서 보내면 닫은 세션이 되살아나던 것",
+                  "[수정] 저절로 올라온 보드 칸을 창으로 떼면 다시 보드에 올라와 두 곳에 뜨던 것",
+                  "[수정] 세션 하나를 다른 그룹으로 떼어 낸 카드가, 그 세션이 VS Code에서 살아 있으면 원래 카드로 끌려가 빈 카드가 남던 것",
+                  "[수정] claude 출력에 깨진 글자가 섞이면 출력을 더 읽지 못해 claude가 멈춘 채 남을 수 있던 것",
+                  "[수정] ClaudeBook이 충돌하거나 작업 관리자에서 끝나도 claude와 그 하위 프로세스(셸·MCP 서버)가 남아 돌던 것. 이제 함께 끝나요",
+                  "[수정] 설정을 Esc나 바깥 누르기로 닫으면 미리 본 색 테마가 남던 것, /clear 뒤 고른 모델·모드·에포트가 사라지던 것",
+                  "[수정] 업데이트 설치가 10분 넘게 멈추면 설치 프로그램이 남던 것",
+                  "[개선] 대화 속 그림이 쓰는 메모리를 크게 줄였어요 (그림마다 2048px → 640px, 크게 볼 때만 원본 크기)",
+                  "[개선] 폴더 정보를 읽는 동안(claude를 잠깐 띄움)에도 열린 대화가 계속 따라와요. 대화가 늘 때 그 창만 다시 그려요",
+                  "[개선] 기록 저장을 더 안전하게: 디스크에 확실히 쓴 뒤 바꾸고, 바로 전 판을 state.json.bak으로 남겨 파일이 깨지면 그것으로 되살려요. 다른 프로그램이 쥐고 있어 읽지 못하면 빈 기록으로 덮어쓰지 않아요",
+                  "[개선] 평소처럼 켰을 때 사용자가 정한 CLAUDE_CODE_* 환경 변수를 claude에 그대로 넘겨요. 받은 설치 파일은 실행 직전에 서명된 해시로 한 번 더 확인해요",
+                  "[개선] 시작할 때 트레이 아이콘을 못 만들었으면 10초마다 다시 시도해요"
               ]
 }
