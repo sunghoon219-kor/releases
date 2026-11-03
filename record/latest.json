@@ -1,14 +1,17 @@
 {
-  "name": "Record",
-  "version": "0.1.5",
-  "date": "2026-11-03T09:15:44+09:00",
-  "files": [
-    {
-      "name": "Record-0.1.5-setup.exe",
-      "size": 5621692,
-      "sha256": "395f4e16616eb7c2b860401b952782101a5d1bc0e2ebed71dbe40a6bda7562cb",
-      "url": "https://github.com/sunghoon219-kor/releases/releases/download/record-v0.1.5/Record-0.1.5-setup.exe"
-    }
-  ],
-  "signature": "chg0M9lEudBAWhJj9OlmPTCcQVwZhMqVnGLpfWM3PEzkE0Oyhh0/d5v4lWlveAHARVmYosUg4pf27DIrv3xEBw=="
+    "name":  "Record",
+    "version":  "0.1.6",
+    "date":  "2026-11-03T09:24:32+09:00",
+    "files":  [
+                  {
+                      "name":  "Record-0.1.6-setup.exe",
+                      "size":  5627849,
+                      "sha256":  "4e8439404c582e532a2b17478e4021d893751faa458ad3fde082afa0e2ecaa13",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/record-v0.1.6/Record-0.1.6-setup.exe"
+                  }
+              ],
+    "signature":  "VKhIBJ9RPo+nCagxlN9I+nVjHAlS1j3rd9712T3JbXkz7IzBigaOqeabc2pIVJM2gkDUKaighCznlGqU/mAZCQ==",
+    "notes":  [
+                  "개선: 새 버전 안내 띠와 설정의 \"정보\"에 그 판에서 바뀐 점(수정·개선)을 보여 줘요. 업데이트한 뒤에도 이 버전에서 바뀐 점을 볼 수 있어요."
+              ]
 }
