@@ -1,19 +1,17 @@
 {
     "name":  "usbgate",
-    "version":  "0.2.1",
-    "date":  "2026-11-03T13:38:16+09:00",
+    "version":  "0.2.2",
+    "date":  "2026-11-03T14:00:50+09:00",
     "files":  [
                   {
-                      "name":  "usbgate-0.2.1.apk",
-                      "size":  1004164,
-                      "sha256":  "365c97fbfb538760fc7e09d9859b02275cc39acc342d5d4599abce28a6e1e378",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/usbgate-v0.2.1/usbgate-0.2.1.apk"
+                      "name":  "usbgate-0.2.2.apk",
+                      "size":  995972,
+                      "sha256":  "e32c85ebb8867dfd0a02449353c686e5832a1e5d4b94532acf251250dc6666b0",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/usbgate-v0.2.2/usbgate-0.2.2.apk"
                   }
               ],
-    "signature":  "xi4rlA+Q+slLHrnmD+if55MEANL8Io/RZRVyxfCj9hG2v/oujw8YHZ0sIfrDbzKytjTyjpXNlyDKAvY3CLMqBw==",
+    "signature":  "Kmw3dlyFsEM266TowTAs41qJiFH4paSuL4Q9AMj80mqX/xi+0M+NdQ8zhDnEmyzAzsAps7kF9OBTsKO/pQoGDw==",
     "notes":  [
-                  "수정: 앱을 새로 설치하면 권한이 없어 개발자 옵션을 켜고 끄지 못하던 문제. 이제 PC 없이 앱에서 권한을 받아요.",
-                  "개선: 앱을 열었을 때 권한이 없으면 안내 창이 떠요. [시작] → 무선 디버깅의 \u0027페어링 코드로 기기 페어링\u0027 → 알림에 6자리 코드 입력만 하면, 앱이 폰의 무선 디버깅으로 스스로 권한과 배터리 예외를 받아요(처음 한 번, Wi-Fi 필요).",
-                  "개선: 권한을 받고 나면 케이블이 꽂혀 있지 않은 한 개발자 옵션과 무선 디버깅을 바로 다시 꺼요."
+                  "수정: 권한 받기에서 코드를 넣으면 \"키를 만들지 못했어요 … Permission denied\"로 실패하던 문제. Android가 앱에 막아 둔 파일 연결 방식 대신 일반 파일 쓰기로 키를 저장해요."
               ]
 }
