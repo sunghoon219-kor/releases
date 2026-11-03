@@ -1,31 +1,38 @@
 {
     "name":  "rmt",
-    "version":  "0.3.14",
-    "date":  "2026-11-03T11:51:43+09:00",
+    "version":  "0.3.15",
+    "date":  "2026-11-03T16:08:51+09:00",
     "files":  [
                   {
-                      "name":  "rmt-setup-0.3.14.exe",
-                      "size":  21913088,
-                      "sha256":  "be7b70a3b37c59a278a266c5addea1584c359d19c2bfa95a711b7280f1c3af80",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.14/rmt-setup-0.3.14.exe"
+                      "name":  "rmt-setup-0.3.15.exe",
+                      "size":  22098944,
+                      "sha256":  "94ed209c3cdaf33734bd7d7ff618f78dcd1fede1485ce64cdbd49af8efc265ba",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.15/rmt-setup-0.3.15.exe"
                   },
                   {
-                      "name":  "rmt-0.3.14-windows-x64.zip",
-                      "size":  15586484,
-                      "sha256":  "436d9d7561b5eff8cd394a21db5f12aea103467b36aaa3b6cb9383d2316e0796",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.14/rmt-0.3.14-windows-x64.zip"
+                      "name":  "rmt-0.3.15-windows-x64.zip",
+                      "size":  15760854,
+                      "sha256":  "c49738e56256dbe1ebe22318640bc89bcbad153ca6637cccc2c864ff75500e33",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.15/rmt-0.3.15-windows-x64.zip"
                   },
                   {
-                      "name":  "rmt-android-0.3.14.apk",
+                      "name":  "rmt-android-0.3.15.apk",
                       "size":  2401086,
-                      "sha256":  "6f9a6d3a858d34450fc0290bd1c42efc25d55190c1400dcf03cdd746a48db230",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.14/rmt-android-0.3.14.apk"
+                      "sha256":  "b327a196bc4433a93917be379dc7d6bb1a6cf838a2f42169f9c8bb56b58a0e73",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.15/rmt-android-0.3.15.apk"
                   }
               ],
-    "signature":  "wjaAR/t4kMwLIs1/Dki0EuOYkH7XGfHH4azImqNKOsSRlfkhdCbJ7q6xcunbNYgfcNdVnuwbPfTB5SrwXuBwAQ==",
+    "signature":  "7yB/m8oTf+lLwUo+ZH7NcEcmS/cdvZ+nGI2rtvtA+7UUHqLBXWEDpMQSOkcHzE4Uuc+CRuXzuT7qCsuPY/7fBQ==",
     "notes":  [
-                  "수정: 휴대폰: 최근 연결이 많으면 시작 화면 아래쪽이 잘려 보이지 않던 문제 (이제 위아래로 밀어서 봐요).",
-                  "개선: 휴대폰: 세로 모드. 휴대폰을 돌리면 시작 화면과 원격 화면이 따라 돌아요(자동 회전이 켜져 있을 때). 연결은 끊기지 않고, 세로에서는 호스트 화면이 가로 폭에 맞춰지며 두 손가락으로 확대해요.",
-                  "개선: 휴대폰: 오른쪽 위 단추를 좁혀 세로 폭에서도 [원래 크기]·[화면]·[키보드]·[끊기]가 다 들어가고, 카메라 구멍을 피해 놓여요."
+                  "수정: 서비스 모드: 원격에서 잠금 화면에 암호를 쳐서 풀면 화면 잠금(가림막)까지 꺼지던 문제 (호스트 PC 앞에서 푼 것으로 보던 것).",
+                  "수정: 서비스 모드로 바꾼 뒤 Windows에 로그인할 때마다 \"이미 서비스로 실행 중이에요\" 창이 뜨던 문제.",
+                  "수정: 서비스 모드: 잠금·풀림을 되풀이하면 화면을 따라가는 데 쓰는 핸들이 조금씩 쌓이던 문제.",
+                  "수정: 업데이트할 때 서비스가 다 멈추기 전에 강제로 끝내, 서비스가 다시 켜지며 파일 복사와 겹칠 수 있던 문제.",
+                  "수정: 아무도 로그인하지 않은 상태에서 업데이트하면 호스트를 엉뚱한 곳에서 다시 켜려 하던 문제.",
+                  "개선: 서비스 모드를 Parsec처럼 바꿨어요: 화면을 보내는 일은 서비스가 하고, 트레이 아이콘·상태 창·설정·PIN 알림은 평소처럼 보여요. 잠긴 PC에 연결해 원격으로 암호를 쳐서 풀 수 있어요. 서비스로 도는 동안에도 설정을 바꿀 수 있어요.",
+                  "개선: 설치 프로그램에서 [서비스로 설치 (추천)]이 기본으로 켜져요.",
+                  "개선: 서비스 모드: 서비스가 멈춰 있으면 트레이의 [시작]으로 다시 켤 수 있어요.",
+                  "개선: 호스트 PC가 잠겨 있어도 연결이 끊기지 않아요. \"호스트 PC가 잠겨 있어요\" 안내 화면을 보여 주다가, 호스트 PC 앞에서 잠금을 풀면 바로 실제 화면으로 이어져요. 연결 중에 잠겨도 화면이 멈춘 채로 있지 않고 같은 안내가 떠요.",
+                  "개선: 잠금 화면에서도 원격으로 풀고 쓰려면 호스트를 서비스로 설치하면 된다고 안내 화면에 적었어요."
               ]
 }
