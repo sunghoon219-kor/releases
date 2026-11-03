@@ -1,30 +1,34 @@
 {
     "name":  "rmt",
-    "version":  "0.3.18",
-    "date":  "2026-11-03T19:48:25+09:00",
+    "version":  "0.3.19",
+    "date":  "2026-11-04T02:07:27+09:00",
     "files":  [
                   {
-                      "name":  "rmt-setup-0.3.18.exe",
-                      "size":  22338048,
-                      "sha256":  "f3b005f40708c25f7aa6d2ba0642af6a1922e74c7cf14c44640d84b72b280645",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.18/rmt-setup-0.3.18.exe"
+                      "name":  "rmt-setup-0.3.19.exe",
+                      "size":  22417920,
+                      "sha256":  "e5b287a98fa46b5b47f988ee254e84ffbd3c3d2d0697df29bcb5142d2f187c6d",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.19/rmt-setup-0.3.19.exe"
                   },
                   {
-                      "name":  "rmt-0.3.18-windows-x64.zip",
-                      "size":  15970491,
-                      "sha256":  "fbf48e6a0f534f5b3dbb0dda8b6fbd6942af4c8656ac24eb9b52091bb8d1c352",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.18/rmt-0.3.18-windows-x64.zip"
+                      "name":  "rmt-0.3.19-windows-x64.zip",
+                      "size":  16050313,
+                      "sha256":  "116e41afcc753ed4d6f975e4a4e4ca4c8d48d639f740a7001b0a1a0f6574eb42",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.19/rmt-0.3.19-windows-x64.zip"
                   },
                   {
-                      "name":  "rmt-android-0.3.18.apk",
-                      "size":  2409427,
-                      "sha256":  "0341c00a4be0fe95491821d8160347a627045291dce911a04695046f4433bd09",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.18/rmt-android-0.3.18.apk"
+                      "name":  "rmt-android-0.3.19.apk",
+                      "size":  2421715,
+                      "sha256":  "0db7831be346a3130ee96a3677436e0ff4fd0cea588b64eaebdc78e443f33b80",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.19/rmt-android-0.3.19.apk"
                   }
               ],
-    "signature":  "IpAcZg1U/t8fc5V7EI/hIZr8seNOOQfxzU9vaM5xWkfnARduJUPwp4TrQojLOSUEyj3UHPocSTPrUwoKIyheCQ==",
+    "signature":  "5rcczOBokKIQFakMNdH9+nkWtxuUkBdTiLuJBXatpoS140CJ42bYix2NjTcDcmnfMC69CrNppDr3feYIaJF1DA==",
     "notes":  [
-                  "수정: PC 클라이언트가 두 개 켜져 있으면 집 밖(WireGuard) 연결이 20초마다 끊기던 문제. 세션이 없는 쪽이 20초마다 호스트가 켜져 있는지 확인하면서 같은 기기 키로 터널을 열어, 공유기가 세션 쪽 터널 대신 그쪽으로 보냈어요. 이제 PC 클라이언트는 한 PC에서 하나만 켜져요.",
-                  "개선: 연결 중(시작 화면이 숨어 있을 때) 시작 메뉴나 호스트 트레이에서 rmt 클라이언트를 다시 켜면, 새로 하나 더 뜨지 않고 이미 열린 세션 창(없으면 연결 창이나 시작 화면)이 앞으로 나와요. 주소를 줘서 켰고 쉬는 중이면 그 주소로 연결해요."
+                  "수정: 호스트 방화벽 허용이 Tailscale 주소(100.64.0.0/10)에서 오는 연결을 막던 문제. 설치할 때 새 규칙이 들어가고, 압축 파일로 쓰던 호스트는 넓힐지 한 번 물어봐요.",
+                  "수정: 이름으로 주소를 넣었을 때 IPv6 주소를 먼저 써서 연결하지 못할 수 있던 문제 (호스트는 IPv4로만 받아요).",
+                  "개선: PC 클라이언트가 같은 Tailscale에 있는 rmt 호스트를 알아서 찾아요. 이미 저장된 집 PC면 그 줄에 \"Tailscale\"이 붙고, 연결할 때 집 안 주소·WireGuard·Tailscale 중 되는 쪽으로 붙어요. 처음 보는 호스트는 목록 아래 [추가]로 보여요.",
+                  "개선: 호스트 창의 접속 주소에 Tailscale 주소를 \"Tailscale\"로 표시해요.",
+                  "개선: `rmt-client --tailscale-test`: 이 PC의 Tailscale 기기 목록과 찾은 rmt 호스트를 보여 줘요 (문제 확인용).",
+                  "개선: 설정 가이드에 \"5-5. Tailscale로 쓰기\"와 \"20초쯤마다 끊겨요\" 문제 해결 항목을 넣었어요."
               ]
 }
