@@ -1,24 +1,24 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.15.1",
-    "date":  "2026-11-03T11:55:46+09:00",
+    "version":  "0.15.2",
+    "date":  "2026-11-03T12:22:19+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.15.1-setup.exe",
-                      "size":  7889620,
-                      "sha256":  "6e6b9f5d66a2df19bbaf24afc846f262471a52a23afdbc3a17307a4b14fe3def",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.15.1/ClaudeBook-0.15.1-setup.exe"
+                      "name":  "ClaudeBook-0.15.2-setup.exe",
+                      "size":  7889541,
+                      "sha256":  "231e6362bc5f17db68d3d8ad8998b5c1d5dac0a5c4d6de71d1e658072e0ba95a",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.15.2/ClaudeBook-0.15.2-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.15.1.html",
-                      "size":  1233146,
-                      "sha256":  "f7f17bd40097aaa217b531b5300e905bb45039d6872702b0fba5459ec582916b",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.15.1/ClaudeBook-사용가이드-0.15.1.html"
+                      "name":  "ClaudeBook-사용가이드-0.15.2.html",
+                      "size":  1233249,
+                      "sha256":  "1766f139e57c8c478c1bf6fa08c6487a696b894568f924ed627758b6ba34f76d",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.15.2/ClaudeBook-사용가이드-0.15.2.html"
                   }
               ],
-    "signature":  "APZj+tRb2vMPeqcnC5q1qjFGFWHWKlyte/Wy3ZXzbRBozXBcXD0OVMhC5aMhVVhmK477MxLk5Af3/2e8yyMJCQ==",
+    "signature":  "WVS3Id0XhU99ldq649gR5yCefJ4uwE26AM3FAC0+X/5c0npr70KZU2tWqfw4MWscByfOr6vC9zeV6YTCLTHVDQ==",
     "notes":  [
-                  "[새 기능] / 목록에 \"Clear conversation\"(`/clear-conversation`): 지금 자리(창·옆 칸·보드 칸)를 같은 폴더의 새 대화로 비워요 (`/clear`와 같음, 지금 대화는 기록에 남음)",
-                  "[수정] 보드 칸에서 `/clear`를 하면 칸이 비워지지 않고 따로 새 대화 창이 뜨던 문제 (이제 그 칸이 제자리에서 새 대화가 돼요)"
+                  "[새 기능] `/clear 이름`: 지금 대화에 이름을 붙이고 비워요 (카드·지난 세션 찾기에서 그 이름으로 다시 열어요). `/reset`도 `/clear`와 같아요 (Claude Code와 같은 다른 이름)",
+                  "[개선] `/clear`가 / 목록에 한 줄로 \"Clear conversation\"이라고 보이고, conversation·new·reset으로 쳐도 찾아져요. 0.15.1에서 따로 둔 `/clear-conversation` 줄은 같은 동작이라 없앴어요"
               ]
 }
