@@ -1,14 +1,14 @@
 {
   "name": "Record",
-  "version": "0.1.4",
-  "date": "2026-11-03T02:30:27+09:00",
+  "version": "0.1.5",
+  "date": "2026-11-03T09:15:44+09:00",
   "files": [
     {
-      "name": "Record-0.1.4-setup.exe",
-      "size": 5614292,
-      "sha256": "4619633d40d3a5c992653d2d7b07ce0d76638977d552de9f94e09322c1bdcddd",
-      "url": "https://github.com/sunghoon219-kor/releases/releases/download/record-v0.1.4/Record-0.1.4-setup.exe"
+      "name": "Record-0.1.5-setup.exe",
+      "size": 5621692,
+      "sha256": "395f4e16616eb7c2b860401b952782101a5d1bc0e2ebed71dbe40a6bda7562cb",
+      "url": "https://github.com/sunghoon219-kor/releases/releases/download/record-v0.1.5/Record-0.1.5-setup.exe"
     }
   ],
-  "signature": "+/SNiIHB+hBfB0fCc2GfDaSYSZh2qKK0xXLBaKcBiF9YGwfriOZiFEsf8OZF+3U9Bf0mVs+vPz43TXvO8PExBg=="
+  "signature": "chg0M9lEudBAWhJj9OlmPTCcQVwZhMqVnGLpfWM3PEzkE0Oyhh0/d5v4lWlveAHARVmYosUg4pf27DIrv3xEBw=="
 }
