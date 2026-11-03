@@ -1,30 +1,24 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.15.0",
-    "date":  "2026-11-03T11:44:08+09:00",
+    "version":  "0.15.1",
+    "date":  "2026-11-03T11:55:46+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.15.0-setup.exe",
-                      "size":  7887849,
-                      "sha256":  "bc035d89d5f3aeb18690be9c74c4ac154f0f209b55161347edee4064287ec0b6",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.15.0/ClaudeBook-0.15.0-setup.exe"
+                      "name":  "ClaudeBook-0.15.1-setup.exe",
+                      "size":  7889620,
+                      "sha256":  "6e6b9f5d66a2df19bbaf24afc846f262471a52a23afdbc3a17307a4b14fe3def",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.15.1/ClaudeBook-0.15.1-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.15.0.html",
-                      "size":  1233034,
-                      "sha256":  "e4ad2193f4a2dd0b74514753e0142881e41ec1534136dc165430a22c85df94e3",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.15.0/ClaudeBook-사용가이드-0.15.0.html"
+                      "name":  "ClaudeBook-사용가이드-0.15.1.html",
+                      "size":  1233146,
+                      "sha256":  "f7f17bd40097aaa217b531b5300e905bb45039d6872702b0fba5459ec582916b",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.15.1/ClaudeBook-사용가이드-0.15.1.html"
                   }
               ],
-    "signature":  "Qr+YDebE3kB3Otofi7BuYJYSFHrcNTsX8RU+ZJpu4mPJVqu23l/EnWwRc2w6fQrOiLdSfoKcPHFjrXTJu0HwCw==",
+    "signature":  "APZj+tRb2vMPeqcnC5q1qjFGFWHWKlyte/Wy3ZXzbRBozXBcXD0OVMhC5aMhVVhmK477MxLk5Af3/2e8yyMJCQ==",
     "notes":  [
-                  "[새 기능] 프로젝트 추가: 위쪽 막대의 \"프로젝트 추가\"(또는 그룹 메뉴 \"이 그룹에 프로젝트 추가\")로 이 PC에서 Claude Code로 대화했던 폴더를 골라 목록에 올려요. 최근 세션 5개가 함께 올라오고, 나머지는 카드 메뉴의 \"지난 세션 찾기\"에서 열어요",
-                  "[개선] 답이 써지는 동안 화면이 부드러워요: 다 쓴 생각·도구·글 블록을 기록 파일을 기다리지 않고 바로 완성된 모양으로 보여 주고, 글은 타이핑하듯 풀려 나오며, 맨 아래 따라가기가 미끄러지듯 내려가요",
-                  "[개선] 보낸 말이 기록에 들어갈 때 모양이 바뀌지 않고 그 자리에 그대로 있어요",
-                  "[개선] 작업 중 표시 줄이 늘 같은 자리를 차지하고, 입력칸 높이나 창 폭이 바뀌어도 대화 내용이 순간이동하지 않아요",
-                  "[수정] 표 칸의 글이 여러 줄로 넘어가면 다음 줄과 겹치던 문제",
-                  "[수정] 작업 중에 보낸 말이 먼저 받은 답보다 위에 그려지던 문제, 같은 말을 다시 보내면 말풍선이 바로 사라지던 문제",
-                  "[수정] 앞쪽 답의 도구가 끝났는데도 \"실행 중\"으로 보이던 문제",
-                  "[수정] \"최신으로\"를 누르면 화면이 지나치게 올라갔다가 천천히 되돌아오던 문제"
+                  "[새 기능] / 목록에 \"Clear conversation\"(`/clear-conversation`): 지금 자리(창·옆 칸·보드 칸)를 같은 폴더의 새 대화로 비워요 (`/clear`와 같음, 지금 대화는 기록에 남음)",
+                  "[수정] 보드 칸에서 `/clear`를 하면 칸이 비워지지 않고 따로 새 대화 창이 뜨던 문제 (이제 그 칸이 제자리에서 새 대화가 돼요)"
               ]
 }
