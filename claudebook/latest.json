@@ -1,26 +1,24 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.16.0",
-    "date":  "2026-11-03T14:06:11+09:00",
+    "version":  "0.16.1",
+    "date":  "2026-11-03T14:38:09+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.16.0-setup.exe",
-                      "size":  7922180,
-                      "sha256":  "9eeb06fa140a037851159e84e81a85f2f1ce2e4319ab1fa797ef42f1660b0566",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.16.0/ClaudeBook-0.16.0-setup.exe"
+                      "name":  "ClaudeBook-0.16.1-setup.exe",
+                      "size":  7919607,
+                      "sha256":  "b330d31a2a4d27abc57d4d8e37bf44ef47e61e8a281d20f97d79cdd8bc66bdab",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.16.1/ClaudeBook-0.16.1-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.16.0.html",
+                      "name":  "ClaudeBook-사용가이드-0.16.1.html",
                       "size":  1233719,
-                      "sha256":  "3ce937cc67badc0d11855744cdd4e4b80bcd147a49ca0810123396cf2e28b0d7",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.16.0/ClaudeBook-사용가이드-0.16.0.html"
+                      "sha256":  "6a1560aa64720077b3b1d9378342054b3ac53f3287e3e94968b2c35e58d854f6",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.16.1/ClaudeBook-사용가이드-0.16.1.html"
                   }
               ],
-    "signature":  "Rf7TSZqdI2T23ln7sq/iLy7I0MfaXxjxi6XqzwJPvsTF7YO5WD/KC14aAykU6t31bwmPhthfi+5vaVFbIWt5BQ==",
+    "signature":  "0afU1KuLKqAUkB7Z+fpJ0EhkYHYPt79VUZFyaX+NXF2fxjNb6xw9aXh5McqGor/Q6IzJ6xD99ZU795ErRKdWAg==",
     "notes":  [
-                  "[새 기능] 보드 바꾸기: 보드 이름 옆 ∨를 눌러 이 창에 다른 보드를 열어요. 그 보드가 다른 창에 열려 있으면 두 창이 보드를 맞바꿔요 (자리가 바뀜)",
-                  "[새 기능] 보드의 \"새 세션\": 폴더를 고르면 그 보드에 새 대화 칸이 바로 생겨요 (첫 말을 보내면 시작, 목록에 없는 폴더는 \"다른 폴더 고르기\")",
-                  "[새 기능] 보드 칸의 세션 닫기(머리의 전원 단추·칸 메뉴): claude를 끝내고 보드와 목록에서 빼요. 대화 기록은 남아 카드 메뉴의 \"지난 세션 찾기\"에서 다시 열 수 있어요. 작업 중이면 한 번 더 물어요 (VS Code·터미널에서 연 세션은 그쪽에서 닫음)",
-                  "[개선] 보드의 \"세션 추가\"를 \"세션 열기\"로 이름을 바꿨어요 (있는 세션을 보드에 올리기). 창이 좁으면 새 세션·세션 열기가 아이콘으로 줄어요"
+                  "[개선] Claude가 여러 질문을 한꺼번에 하면 아래로 늘어놓지 않고 탭으로 하나씩 보여요. 답한 탭은 ✓, 하나만 고르는 질문에 답하면 다음 질문으로 넘어가요 (← → 로 바꾸기, 숫자 키는 지금 탭의 선택지)",
+                  "[개선] Claude의 질문·권한 확인 카드가 대화를 덜 가려요: 대화 화면(보드 칸) 높이의 40%쯤까지만 차지하고 넘치면 카드 안에서 스크롤해요 (질문 카드는 선택지만 스크롤하고 답하기 줄은 늘 보임). 아래에 더 있으면 \"아래에 더 있어요 ↓\"가 떠요. 비율은 설정 → \"질문·권한 카드 높이\"에서 20~80%로 바꿔요"
               ]
 }
