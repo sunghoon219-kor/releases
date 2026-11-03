@@ -1,0 +1,19 @@
+{
+    "name":  "usbgate",
+    "version":  "0.2.0",
+    "date":  "2026-11-03T12:03:26+09:00",
+    "files":  [
+                  {
+                      "name":  "usbgate-0.2.0.apk",
+                      "size":  262788,
+                      "sha256":  "cb9de1490429f92bc4b74e060a6f81a1b8fedde56c2633d44a4aec2611c35c41",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/usbgate-v0.2.0/usbgate-0.2.0.apk"
+                  }
+              ],
+    "signature":  "y/9+HjjKTvmOi784U8b5x1EETZkI/A3NDeGvdrwvK4+dlxKwGsPlui+9pcJGms+hQTlqGOJYrZxb/9+Pxp6zBA==",
+    "notes":  [
+                  "개선: 처음 공개하는 판이에요. PC와 USB로 연결됐을 때만 개발자 옵션과 USB 디버깅을 켜고, 케이블을 뽑거나 벽 충전기에 꽂으면 꺼요.",
+                  "개선: 앱 화면에 지금 버전과 [업데이트 확인]이 생겼어요. 새 버전이 있으면 바뀐 점과 함께 [업데이트] 단추가 떠요.",
+                  "개선: [업데이트]를 누르면 받은 파일의 서명과 SHA-256을 확인한 뒤에만 설치하고, 설치가 끝나면 앱이 다시 열려요."
+              ]
+}
