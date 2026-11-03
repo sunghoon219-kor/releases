@@ -1,23 +1,23 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.17.1",
-    "date":  "2026-11-03T16:42:44+09:00",
+    "version":  "0.17.2",
+    "date":  "2026-11-03T17:05:25+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.17.1-setup.exe",
-                      "size":  7960726,
-                      "sha256":  "7220ef64cc341eb564b0669edcdd7ef7c239ba8e485aa52adb321a2cc47c3f04",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.17.1/ClaudeBook-0.17.1-setup.exe"
+                      "name":  "ClaudeBook-0.17.2-setup.exe",
+                      "size":  7962252,
+                      "sha256":  "c9a7ac19657096b74f7cfd718131975f345453029178c6233c70e002295b54f1",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.17.2/ClaudeBook-0.17.2-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.17.1.html",
+                      "name":  "ClaudeBook-사용가이드-0.17.2.html",
                       "size":  1234274,
-                      "sha256":  "a6538ab2152a99238c88f128a17fc4e56546e17fb4f2e65e9b8b645dd5337d42",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.17.1/ClaudeBook-사용가이드-0.17.1.html"
+                      "sha256":  "b1d154692a89b19f08f4ab80dba2f74a4cf6699ea3fce07b578705e57a73f66b",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.17.2/ClaudeBook-사용가이드-0.17.2.html"
                   }
               ],
-    "signature":  "2M1Ewr+nV35QAZr/Lrmi3Y41fZXrTuVHWEFssAGD9ZWBZeYRwaIZ5axNNwbg5FXHdMEcx8zI2mSohzMTPWl9Aw==",
+    "signature":  "GHF2tT30NIhGGif8RKv9+2qlGQj/PTizK05csroFNSrnv80qgHMnzTuJp1AB6xbJK9qU69H2pphV0flNKLkKBQ==",
     "notes":  [
-                  "[개선] 메인 목록의 세션 칸에 마지막으로 한 질문이 보여요 (Claude Code가 처음에 붙인 제목만으로는 지금 무엇을 하는지 알기 어려워서). 타일은 셋째 줄에, 목록 보기는 제목 옆에. ClaudeBook에서 쓰는 세션에 Claude가 질문하고 기다리면 그 질문(\"묻는 중: …\"). 마우스를 올리면 전체"
+                  "[개선] 설정의 색 테마·글자 밝기 고르기를 키보드로도 다룰 수 있어요 (포커스 표시, 화면 낭독기 이름). 화면 부품을 rmt·Record와 같은 것으로 정리해 세 프로그램의 모양이 같이 따라가요"
               ]
 }
