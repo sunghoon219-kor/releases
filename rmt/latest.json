@@ -1,26 +1,31 @@
 {
-  "name": "rmt",
-  "version": "0.3.13",
-  "date": "2026-11-03T08:55:24+09:00",
-  "files": [
-    {
-      "name": "rmt-setup-0.3.13.exe",
-      "size": 21913600,
-      "sha256": "e086b8ec9def98928483ab358c2a2b910d79d0f76a0ce57ec42388b2ebe506c6",
-      "url": "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.13/rmt-setup-0.3.13.exe"
-    },
-    {
-      "name": "rmt-0.3.13-windows-x64.zip",
-      "size": 15586991,
-      "sha256": "d09452b6cf4ec763f7632282d52e282913f850a7c9e14e932663ee776c3c6928",
-      "url": "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.13/rmt-0.3.13-windows-x64.zip"
-    },
-    {
-      "name": "rmt-android-0.3.13.apk",
-      "size": 2401086,
-      "sha256": "7182a546df9dec6291c6062806214b9f93fb987086e7df232b1f845e943eeaab",
-      "url": "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.13/rmt-android-0.3.13.apk"
-    }
-  ],
-  "signature": "zJPN/9va8IEn1EoaxGywy8Lm2yw2RcC7IUR6ml4qgE7Ay8Jya/6NiADFOwI/xq/qh0rlCfAZOiD3SVY7iQtzBQ=="
+    "name":  "rmt",
+    "version":  "0.3.14",
+    "date":  "2026-11-03T11:51:43+09:00",
+    "files":  [
+                  {
+                      "name":  "rmt-setup-0.3.14.exe",
+                      "size":  21913088,
+                      "sha256":  "be7b70a3b37c59a278a266c5addea1584c359d19c2bfa95a711b7280f1c3af80",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.14/rmt-setup-0.3.14.exe"
+                  },
+                  {
+                      "name":  "rmt-0.3.14-windows-x64.zip",
+                      "size":  15586484,
+                      "sha256":  "436d9d7561b5eff8cd394a21db5f12aea103467b36aaa3b6cb9383d2316e0796",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.14/rmt-0.3.14-windows-x64.zip"
+                  },
+                  {
+                      "name":  "rmt-android-0.3.14.apk",
+                      "size":  2401086,
+                      "sha256":  "6f9a6d3a858d34450fc0290bd1c42efc25d55190c1400dcf03cdd746a48db230",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.14/rmt-android-0.3.14.apk"
+                  }
+              ],
+    "signature":  "wjaAR/t4kMwLIs1/Dki0EuOYkH7XGfHH4azImqNKOsSRlfkhdCbJ7q6xcunbNYgfcNdVnuwbPfTB5SrwXuBwAQ==",
+    "notes":  [
+                  "수정: 휴대폰: 최근 연결이 많으면 시작 화면 아래쪽이 잘려 보이지 않던 문제 (이제 위아래로 밀어서 봐요).",
+                  "개선: 휴대폰: 세로 모드. 휴대폰을 돌리면 시작 화면과 원격 화면이 따라 돌아요(자동 회전이 켜져 있을 때). 연결은 끊기지 않고, 세로에서는 호스트 화면이 가로 폭에 맞춰지며 두 손가락으로 확대해요.",
+                  "개선: 휴대폰: 오른쪽 위 단추를 좁혀 세로 폭에서도 [원래 크기]·[화면]·[키보드]·[끊기]가 다 들어가고, 카메라 구멍을 피해 놓여요."
+              ]
 }
