@@ -1,24 +1,25 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.16.1",
-    "date":  "2026-11-03T14:38:09+09:00",
+    "version":  "0.17.0",
+    "date":  "2026-11-03T16:11:11+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.16.1-setup.exe",
-                      "size":  7919607,
-                      "sha256":  "b330d31a2a4d27abc57d4d8e37bf44ef47e61e8a281d20f97d79cdd8bc66bdab",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.16.1/ClaudeBook-0.16.1-setup.exe"
+                      "name":  "ClaudeBook-0.17.0-setup.exe",
+                      "size":  7961809,
+                      "sha256":  "6f43138abd158c18bf9f92a2cc7e7b131972b7dc22c9965d7af7c20bb3498ac7",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.17.0/ClaudeBook-0.17.0-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.16.1.html",
-                      "size":  1233719,
-                      "sha256":  "6a1560aa64720077b3b1d9378342054b3ac53f3287e3e94968b2c35e58d854f6",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.16.1/ClaudeBook-사용가이드-0.16.1.html"
+                      "name":  "ClaudeBook-사용가이드-0.17.0.html",
+                      "size":  1234274,
+                      "sha256":  "9d3c2abad2992f54f7c1c29b2818d336642b2376fae5daabe2beab5292bfb044",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.17.0/ClaudeBook-사용가이드-0.17.0.html"
                   }
               ],
-    "signature":  "0afU1KuLKqAUkB7Z+fpJ0EhkYHYPt79VUZFyaX+NXF2fxjNb6xw9aXh5McqGor/Q6IzJ6xD99ZU795ErRKdWAg==",
+    "signature":  "ZRCPa69i4JEN4Inizc6accMpzKJdbZ0JZhO76EO1jvhcJpaAXvaiUSC5D4tx8Vp8zT3+Al9EBjxevY7Iplz9Cg==",
     "notes":  [
-                  "[개선] Claude가 여러 질문을 한꺼번에 하면 아래로 늘어놓지 않고 탭으로 하나씩 보여요. 답한 탭은 ✓, 하나만 고르는 질문에 답하면 다음 질문으로 넘어가요 (← → 로 바꾸기, 숫자 키는 지금 탭의 선택지)",
-                  "[개선] Claude의 질문·권한 확인 카드가 대화를 덜 가려요: 대화 화면(보드 칸) 높이의 40%쯤까지만 차지하고 넘치면 카드 안에서 스크롤해요 (질문 카드는 선택지만 스크롤하고 답하기 줄은 늘 보임). 아래에 더 있으면 \"아래에 더 있어요 ↓\"가 떠요. 비율은 설정 → \"질문·권한 카드 높이\"에서 20~80%로 바꿔요"
+                  "[새 기능] MD 문서 창: 답 속 .md 링크, `docs/plan.md`처럼 코드로 쓴 MD 경로, Claude가 만든·고친 .md 파일(도구 줄·\"수정한 파일\" 메뉴)을 누르면 VS Code 대신 ClaudeBook 문서 창에서 읽어요. 목차(지금 읽는 제목 표시), `#제목`·`:12` 링크는 그 자리로, 문서 속 링크 따라가기와 뒤로(Alt+←), 원문 보기, 파일이 바뀌면 저절로 다시 읽기. 같은 문서는 창 하나만 뜨고, 고칠 때는 창 위 \"VS Code에서 열기\"",
+                  "[개선] 대화·문서 창에서 글을 끌어 고를 때 끊기지 않아요: 고르는 중에 휠로 스크롤해도 선택이 풀리지 않고, 위·아래 끝에 닿거나 넘으면 저절로 스크롤되며 계속 골라져요 (Claude가 쓰는 중이어도 고르는 동안은 화면이 아래로 밀리지 않음)",
+                  "[수정] 보드에서 세션 닫기(전원 단추)를 한 세션이 메인 목록의 프로젝트 카드에 다시 나타나던 것을 고쳤어요. VS Code에서 가져온 세션은 VS Code에 오류 탭으로 남아, 그 폴더의 VS Code 창이 열려 있으면 다음 갱신 때 카드로 돌아왔어요. 이제 닫거나 \"목록에서 빼기\"한 세션은 VS Code나 ClaudeBook에서 다시 쓰기 전까지 목록에 넣지 않아요 (닫는 중인 claude가 \"터미널 등에서 실행 중\" 칸에 잠깐 뜨던 것도 없앰)"
               ]
 }
