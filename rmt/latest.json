@@ -1,31 +1,32 @@
 {
     "name":  "rmt",
-    "version":  "0.3.21",
-    "date":  "2026-11-04T14:03:28+09:00",
+    "version":  "0.3.22",
+    "date":  "2026-11-05T03:09:56+09:00",
     "files":  [
                   {
-                      "name":  "rmt-setup-0.3.21.exe",
-                      "size":  22489600,
-                      "sha256":  "e5dbd4bad6d7f6031ea70b676093cf4d708a0f840588b0973e6bf12034047b90",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.21/rmt-setup-0.3.21.exe"
+                      "name":  "rmt-setup-0.3.22.exe",
+                      "size":  22535168,
+                      "sha256":  "e7757ddc40da61dc7a65e63cd62e00bd8b4179fff157fb10368084b0e9f7933b",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.22/rmt-setup-0.3.22.exe"
                   },
                   {
-                      "name":  "rmt-0.3.21-windows-x64.zip",
-                      "size":  16116608,
-                      "sha256":  "d9e083c5fda0c27d4487d3dd142f84c4ff939747944896f9aa2582df052aa618",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.21/rmt-0.3.21-windows-x64.zip"
+                      "name":  "rmt-0.3.22-windows-x64.zip",
+                      "size":  16161674,
+                      "sha256":  "452d793ce728faaafd15ed203d819febd11be642c5d7e99fdd5fb17992bb383f",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.22/rmt-0.3.22-windows-x64.zip"
                   },
                   {
-                      "name":  "rmt-android-0.3.21.apk",
+                      "name":  "rmt-android-0.3.22.apk",
                       "size":  2429907,
-                      "sha256":  "2c15bf8abab6c87b8f4c2d9ab96ec13110406850ead2148dc78d13e10257f0de",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.21/rmt-android-0.3.21.apk"
+                      "sha256":  "5c23f96fef3ef11286f41b403a9307a80553ad5fe9ec1264660e8c038ab0d2d6",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.22/rmt-android-0.3.22.apk"
                   }
               ],
-    "signature":  "0TxbSwMtSw70eUWox/7Bn8WfC/ZpKNALf6bBWH4rw4/9LHxeHLAHdMlsBySyMYRh4S4AoigyJnM2bYYDjMtLDA==",
+    "signature":  "oYBbzAyFbDIjHcsncAwwEgMiq6wRrId/NZ7P2PHy1tgE64i9folmnXF5bNbJZlwp5mXsl799c6MDBeS7wOQZBw==",
     "notes":  [
-                  "수정: 서비스로 등록할 때 \"밖에서 접속하는 기기\" 목록이 옮겨지지 않아 상태 창에서 비어 보이던 문제.",
-                  "수정: 서비스로 새로 등록했는데 서비스나 도우미가 켜지지 않으면 그대로 남아, 호스트가 일반 실행으로도 돌지 않던 문제. 이제 등록을 지우고 일반 실행으로 돌아가요.",
-                  "개선: 호스트 설정에 [서비스로 바꾸기]를 넣었어요. 관리자 확인 창 없이 서비스 모드로 바꿔서, 원격으로 연결한 채 눌러도 돼요. 쓰던 인증서·허용한 기기·설정이 그대로 옮겨져 PIN 없이 다시 붙어요 (관리자 계정만, 바꾸는 동안 연결이 10~20초 끊겼다가 다시 붙어요). 서비스 모드에서는 잠금 화면·로그인 화면·관리자 확인 창도 원격으로 조작할 수 있어요."
+                  "수정: 호스트가 서비스 모드면 원격 화면의 탐색기에서 Ctrl+C로 복사한 파일이 접속한 PC로 오지 않던 문제. 아무 알림도 없이 넘어갔어요. 이제 복사하는 순간 접속한 PC로 받아 Ctrl+V로 붙여 넣을 수 있어요.",
+                  "수정: 호스트가 서비스 모드면 접속한 PC에서 보낸 파일(끌어다 놓기·Ctrl+C)이 사용자가 찾을 수 없는 시스템 폴더에 저장되던 문제. 이제 로그인한 사용자의 `다운로드\\rmt`와 `%LOCALAPPDATA%\\rmt\\clipboard-files`에 받아요.",
+                  "개선: 서비스 모드 호스트는 원격지에서 복사한 파일 중 로그인한 사용자가 읽을 수 있는 것만 보내요 (시스템 권한으로 대신 읽어 보내므로).",
+                  "개선: 클립보드의 파일 목록을 읽지 못하면 그 까닭을 호스트 기록에 남겨요."
               ]
 }
