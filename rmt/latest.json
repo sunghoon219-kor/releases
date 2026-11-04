@@ -1,46 +1,31 @@
 {
     "name":  "rmt",
-    "version":  "0.3.20",
-    "date":  "2026-11-04T11:08:44+09:00",
+    "version":  "0.3.21",
+    "date":  "2026-11-04T14:03:28+09:00",
     "files":  [
                   {
-                      "name":  "rmt-setup-0.3.20.exe",
-                      "size":  22461440,
-                      "sha256":  "ca6b2ad5da7f6f8928db63b80bde39be1f087313ad716aff44a825ae95bd8ab2",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.20/rmt-setup-0.3.20.exe"
+                      "name":  "rmt-setup-0.3.21.exe",
+                      "size":  22489600,
+                      "sha256":  "e5dbd4bad6d7f6031ea70b676093cf4d708a0f840588b0973e6bf12034047b90",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.21/rmt-setup-0.3.21.exe"
                   },
                   {
-                      "name":  "rmt-0.3.20-windows-x64.zip",
-                      "size":  16093375,
-                      "sha256":  "f685bd966b1666a0338eeeb32579bcd33f999c1f56cf5cbb6972319433efad84",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.20/rmt-0.3.20-windows-x64.zip"
+                      "name":  "rmt-0.3.21-windows-x64.zip",
+                      "size":  16116608,
+                      "sha256":  "d9e083c5fda0c27d4487d3dd142f84c4ff939747944896f9aa2582df052aa618",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.21/rmt-0.3.21-windows-x64.zip"
                   },
                   {
-                      "name":  "rmt-android-0.3.20.apk",
+                      "name":  "rmt-android-0.3.21.apk",
                       "size":  2429907,
-                      "sha256":  "8d7d5385af2ecd2f698dfe47f06b1f8783875d326a366144fda235d9a3d2d26b",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.20/rmt-android-0.3.20.apk"
+                      "sha256":  "2c15bf8abab6c87b8f4c2d9ab96ec13110406850ead2148dc78d13e10257f0de",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.21/rmt-android-0.3.21.apk"
                   }
               ],
-    "signature":  "ze3a2wyXHPwJW5HLszZsVauQu8XHO7vNXd4zYQm8qivI4D1GFg+/pxI0SnQJiRVU7c86speDW0nPtG93G2FEAw==",
+    "signature":  "0TxbSwMtSw70eUWox/7Bn8WfC/ZpKNALf6bBWH4rw4/9LHxeHLAHdMlsBySyMYRh4S4AoigyJnM2bYYDjMtLDA==",
     "notes":  [
-                  "수정: 해상도 맞추기: 모니터 두 개로 연결해 한 화면을 닫거나 다시 열면, 맞춰 둔 다른 화면까지 원래 해상도로 돌아가 그대로 남던 문제. 이제 그 화면만 되돌려요.",
-                  "수정: 해상도 맞추기: 다른 원격 프로그램이 끝나며 해상도를 되돌리는 등 연결 중에 원래 해상도로 돌아가면 그대로 남던 문제. 이제 연결 동안 2초마다 확인해 다시 맞춰요 (게임 전체 화면이나 설정 앱에서 바꾼 해상도는 건드리지 않아요).",
-                  "수정: 호스트가 꺼져 있을 뿐인데, 예전에 붙여 둔 Tailscale 주소가 이제 다른 rmt PC여서 \"인증서가 바뀌었어요\" 경고가 뜨던 문제.",
-                  "수정: 신뢰를 지운 호스트에 연결할 때 예전 Tailscale 주소의 다른 PC로 페어링 창이 뜰 수 있던 문제. 이제 저장된 인증서가 있을 때만 Tailscale 주소를 써요.",
-                  "수정: 아직 페어링하지 않은 호스트에 \"· Tailscale\"이 붙던 문제. 이미 저장한 호스트가 \"Tailscale에서 찾은 호스트\"에 [추가]로 다시 뜨던 문제.",
-                  "수정: 기본 포트가 아닌 호스트에 Tailscale 주소가 잘못 붙던 문제. Tailscale 주소가 새로 붙은 뒤에도 20초 동안 \"응답 없음\"으로 보이던 문제.",
-                  "수정: 호스트 목록 저장에 실패하면 붙여 둔 Tailscale 주소까지 지워지던 문제.",
-                  "수정: Tailscale 기기가 많으면 찾기가 오래 걸리던 문제 (이제 8대씩 함께 확인).",
-                  "수정: 호스트 창: 주소가 많으면 Tailscale 주소가 잘리던 문제. 휴대폰 테더링 주소를 Tailscale로 잘못 표시하던 문제. Tailscale이 늦게 켜지면 그 주소가 보이지 않던 문제.",
-                  "수정: 호스트 방화벽: 넓히기에 \"아니요\"를 고른 뒤에도 켤 때마다 다시 묻던 문제. Tailscale 대역만 빠진 규칙에 엉뚱한 안내가 뜨던 문제.",
-                  "수정: 호스트 방화벽: 이름이 같은 다른 rmt 호스트(개발 빌드 등)의 규칙 때문에 허용 상태를 잘못 보던 문제와, 규칙을 다시 만들 때 그 규칙까지 지우던 문제.",
-                  "수정: 집 안 주소와 Tailscale로 둘 다 닿을 때 호스트 기록에 \"핸드셰이크 실패\" 경고가 20초마다 쌓이던 문제.",
-                  "수정: 찾은 호스트·방화벽 경고의 아이콘이 네모로 보일 수 있던 문제.",
-                  "개선: 호스트 창: 방화벽이 연결을 막고 있으면 접속 주소 아래에 이유와 [방화벽 허용] 단추가 보여요.",
-                  "개선: \"Tailscale에서 찾은 호스트\"에 목록의 어느 PC와 같아 보이는지, 인증서가 바뀐 것 같은지 알려 줘요.",
-                  "개선: Tailscale 찾기는 이 기기 인증서 대신 일회용 인증서로 두드려요 (tailnet의 다른 기기에 이 기기를 알리지 않게).",
-                  "개선: 이름으로 넣은 주소가 IPv6로만 풀리면 이유를 알려 줘요 (호스트는 IPv4로만 받아요).",
-                  "개선: `rmt-host --check-firewall`이 규칙 상태(있음 / Tailscale 대역 빠짐 / 같은 네트워크만 / 없음)를 나눠 보여 줘요."
+                  "수정: 서비스로 등록할 때 \"밖에서 접속하는 기기\" 목록이 옮겨지지 않아 상태 창에서 비어 보이던 문제.",
+                  "수정: 서비스로 새로 등록했는데 서비스나 도우미가 켜지지 않으면 그대로 남아, 호스트가 일반 실행으로도 돌지 않던 문제. 이제 등록을 지우고 일반 실행으로 돌아가요.",
+                  "개선: 호스트 설정에 [서비스로 바꾸기]를 넣었어요. 관리자 확인 창 없이 서비스 모드로 바꿔서, 원격으로 연결한 채 눌러도 돼요. 쓰던 인증서·허용한 기기·설정이 그대로 옮겨져 PIN 없이 다시 붙어요 (관리자 계정만, 바꾸는 동안 연결이 10~20초 끊겼다가 다시 붙어요). 서비스 모드에서는 잠금 화면·로그인 화면·관리자 확인 창도 원격으로 조작할 수 있어요."
               ]
 }
