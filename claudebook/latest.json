@@ -1,25 +1,26 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.19.0",
-    "date":  "2026-11-04T20:03:24+09:00",
+    "version":  "0.19.1",
+    "date":  "2026-11-04T21:47:32+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.19.0-setup.exe",
-                      "size":  8471018,
-                      "sha256":  "50f81a626288f42abca037e9560039ca55174a1ee3a61dc28600b2af1680f822",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.0/ClaudeBook-0.19.0-setup.exe"
+                      "name":  "ClaudeBook-0.19.1-setup.exe",
+                      "size":  8676508,
+                      "sha256":  "409040d53a74ef11a0e94dc735b676d559e651d8a21e89b5381e24f2587c39e8",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.1/ClaudeBook-0.19.1-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.19.0.html",
-                      "size":  1289654,
-                      "sha256":  "c8304982c508150e8b524161488ce0043374a135d07c276483892e789745a161",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.0/ClaudeBook-사용가이드-0.19.0.html"
+                      "name":  "ClaudeBook-사용가이드-0.19.1.html",
+                      "size":  1579148,
+                      "sha256":  "ebe4570a18af5f561fdefc6e8716d071046fb8087d51566bcba0cc104329ed93",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.1/ClaudeBook-사용가이드-0.19.1.html"
                   }
               ],
-    "signature":  "uJvV+/I5uRaEwokIF0/msO8ohlDbi5JnFeoWMwkHPDTGY61Dczk/yPLJvNDZ0vGgsnwmQbNkb01n8O+WTCkXDQ==",
+    "signature":  "bVhPaorHg/IU7wrCCcYp3TDLaPyYl9TlhpUQq0dUE97UFUfIjgu/CnoG7fy2rnjxHTzI6+TeWby/aJpwecOpBg==",
     "notes":  [
-                  "[새 기능] OpenRouter: 새 대화를 열 때 입력칸 위에서 \"Claude / OpenRouter\"를 고를 수 있어요. OpenRouter를 고르면 입력칸 아래에서 OpenRouter 모델(GPT·Gemini·DeepSeek 등 도구를 쓸 수 있는 모델, 가격·컨텍스트와 함께)을 찾아 골라요",
-                  "[새 기능] 첫 말을 보내면 그 대화는 Claude와 OpenRouter 사이에서 바꿀 수 없어요. OpenRouter 대화는 OpenRouter 모델 안에서만 바꾸고, /clear로 비워도 같은 쪽으로 이어 열려요",
-                  "[새 기능] 설정 → OpenRouter에서 키를 넣어요. 키는 이 Windows 사용자만 풀 수 있게 암호화해 저장하고, 넣으면 쓴 돈·남은 한도를 보여 줘요. 틀린 키면 보내기 전에 알려요"
+                  "[개선] 그림이 많은 긴 대화를 열 때 빨라졌어요: 화면 가까이 온 그림만 풀어서 그리고, 나머지는 그림 크기만 읽어 자리를 잡아 둬요 (시험 대화의 첫 화면 314ms → 112ms, 보드 400ms → 184ms)",
+                  "[개선] 작업 중인 세션을 볼 때 기록을 다시 읽을 때마다 스레드를 새로 띄우지 않고 시각만 예약해 한 번에 읽어요",
+                  "[개선] 창을 모두 트레이로 숨겨 두면 사용량·Claude 상태를 30분마다만 확인해요 (창이 보이면 지금처럼 5분). 다시 열었을 때 5분이 지났으면 바로 새로 받아요",
+                  "[개선] 토큰 사용량을 셀 때 기록 파일마다 정보를 두 번씩 열어 보던 것을 한 번으로 줄였어요"
               ]
 }
