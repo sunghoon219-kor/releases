@@ -1,25 +1,24 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.18.2",
-    "date":  "2026-11-04T15:10:07+09:00",
+    "version":  "0.18.3",
+    "date":  "2026-11-04T18:09:36+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.18.2-setup.exe",
-                      "size":  8451425,
-                      "sha256":  "51840f0c4bb74c8128be971bd74d2fef2706b0d51031b4a2d33ef45a6393dfd9",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.18.2/ClaudeBook-0.18.2-setup.exe"
+                      "name":  "ClaudeBook-0.18.3-setup.exe",
+                      "size":  8447489,
+                      "sha256":  "56b268f8c905182dd931cd2a8b18f7fc22e322639bad34a326e4e12ddafc6008",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.18.3/ClaudeBook-0.18.3-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.18.2.html",
+                      "name":  "ClaudeBook-사용가이드-0.18.3.html",
                       "size":  1289654,
-                      "sha256":  "c574cdc7d978cf4a606b1749629a5b4de484d1cb6f30fc20be9426b79b1d8e43",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.18.2/ClaudeBook-사용가이드-0.18.2.html"
+                      "sha256":  "077a8d363cda0463dbca523ddbe18d5629383244b89639bb5bb1d7b155078509",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.18.3/ClaudeBook-사용가이드-0.18.3.html"
                   }
               ],
-    "signature":  "Sdk/c6Xx3kWnwhXKYPXzBka38cszLanMvUgaj0k3kO4oKtVqDy6utmR1+g9zYtjvAzauOM1WJUJk8kMmXU2TDg==",
+    "signature":  "Bc7Wx99nMXDDpYrFDEgx9EpR8ez2F6fItoWFuPCcOJizK/oALaP/ZZ6n/by8lTU5PJtRZDcT8MkHcMabqtDNAQ==",
     "notes":  [
-                  "[새 기능] 입력칸에서 ↑로 이전에 입력한 말을 다시 불러요 (↓는 다음 것, 끝까지 내려오면 쓰던 글로). 이 대화의 말·명령과, 같은 폴더의 다른 세션에서 이번에 보낸 말까지. 여러 줄 글에서는 첫 줄·마지막 줄에서만 넘어가요",
-                  "[수정] 슬래시 명령(`/fix-jira-issue DC3084` 같은)을 보내면 \"보내는 중\" 말풍선이 2분 동안 남던 것을 고쳤어요",
-                  "[수정] 보낸 말을 Esc로 바로 멈추면 \"보내는 중\" 말풍선이 계속 남던 것을 고쳤어요 (턴이 끝나고 기록에 없으면 3초 뒤 사라져요)"
+                  "[수정] 그림·영상 파일이 지워졌거나 경로를 못 찾으면 VS Code로 열리던 것을 고쳤어요 (없다고 알려요). 상대 경로·`/` 경로도 기본 앱으로 열어요",
+                  "[수정] 쓰기·고치기 도구 줄에서 그림 파일의 단추가 \"VS Code에서 열기\"로 보이던 것을 \"열기\"로 고쳤어요"
               ]
 }
