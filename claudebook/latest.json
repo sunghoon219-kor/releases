@@ -1,24 +1,25 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.18.3",
-    "date":  "2026-11-04T18:09:36+09:00",
+    "version":  "0.19.0",
+    "date":  "2026-11-04T20:03:24+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.18.3-setup.exe",
-                      "size":  8447489,
-                      "sha256":  "56b268f8c905182dd931cd2a8b18f7fc22e322639bad34a326e4e12ddafc6008",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.18.3/ClaudeBook-0.18.3-setup.exe"
+                      "name":  "ClaudeBook-0.19.0-setup.exe",
+                      "size":  8471018,
+                      "sha256":  "50f81a626288f42abca037e9560039ca55174a1ee3a61dc28600b2af1680f822",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.0/ClaudeBook-0.19.0-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.18.3.html",
+                      "name":  "ClaudeBook-사용가이드-0.19.0.html",
                       "size":  1289654,
-                      "sha256":  "077a8d363cda0463dbca523ddbe18d5629383244b89639bb5bb1d7b155078509",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.18.3/ClaudeBook-사용가이드-0.18.3.html"
+                      "sha256":  "c8304982c508150e8b524161488ce0043374a135d07c276483892e789745a161",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.0/ClaudeBook-사용가이드-0.19.0.html"
                   }
               ],
-    "signature":  "Bc7Wx99nMXDDpYrFDEgx9EpR8ez2F6fItoWFuPCcOJizK/oALaP/ZZ6n/by8lTU5PJtRZDcT8MkHcMabqtDNAQ==",
+    "signature":  "uJvV+/I5uRaEwokIF0/msO8ohlDbi5JnFeoWMwkHPDTGY61Dczk/yPLJvNDZ0vGgsnwmQbNkb01n8O+WTCkXDQ==",
     "notes":  [
-                  "[수정] 그림·영상 파일이 지워졌거나 경로를 못 찾으면 VS Code로 열리던 것을 고쳤어요 (없다고 알려요). 상대 경로·`/` 경로도 기본 앱으로 열어요",
-                  "[수정] 쓰기·고치기 도구 줄에서 그림 파일의 단추가 \"VS Code에서 열기\"로 보이던 것을 \"열기\"로 고쳤어요"
+                  "[새 기능] OpenRouter: 새 대화를 열 때 입력칸 위에서 \"Claude / OpenRouter\"를 고를 수 있어요. OpenRouter를 고르면 입력칸 아래에서 OpenRouter 모델(GPT·Gemini·DeepSeek 등 도구를 쓸 수 있는 모델, 가격·컨텍스트와 함께)을 찾아 골라요",
+                  "[새 기능] 첫 말을 보내면 그 대화는 Claude와 OpenRouter 사이에서 바꿀 수 없어요. OpenRouter 대화는 OpenRouter 모델 안에서만 바꾸고, /clear로 비워도 같은 쪽으로 이어 열려요",
+                  "[새 기능] 설정 → OpenRouter에서 키를 넣어요. 키는 이 Windows 사용자만 풀 수 있게 암호화해 저장하고, 넣으면 쓴 돈·남은 한도를 보여 줘요. 틀린 키면 보내기 전에 알려요"
               ]
 }
