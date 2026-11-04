@@ -1,23 +1,30 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.17.4",
-    "date":  "2026-11-04T01:38:17+09:00",
+    "version":  "0.18.0",
+    "date":  "2026-11-04T11:12:52+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.17.4-setup.exe",
-                      "size":  7973819,
-                      "sha256":  "f4e3e3d2ed4ee65f109f6ff37188973f59b2659820d4e210ea70b6dfa2af0723",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.17.4/ClaudeBook-0.17.4-setup.exe"
+                      "name":  "ClaudeBook-0.18.0-setup.exe",
+                      "size":  8431092,
+                      "sha256":  "475ae4be084f5e415cb04e79dd844e3174e8c80b438206385fc11873759558ce",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.18.0/ClaudeBook-0.18.0-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.17.4.html",
-                      "size":  1234274,
-                      "sha256":  "7a5bbe8bea890d79479fceb5e1dd901a08cce90101cedb80d11b58f68f2fb085",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.17.4/ClaudeBook-사용가이드-0.17.4.html"
+                      "name":  "ClaudeBook-사용가이드-0.18.0.html",
+                      "size":  1289654,
+                      "sha256":  "829c5246f78b938fd8adf4f8f4f57ee0f9a78b0346b2a94e27922203e608f354",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.18.0/ClaudeBook-사용가이드-0.18.0.html"
                   }
               ],
-    "signature":  "kEBaOcHwH8o66Dd3rCVvAlaaHgedfK58bR7whuRVqTMHl4i/v/bGRHQy8KL8scwvY0NWOrhmHOR10wdxyw1gBA==",
+    "signature":  "nrvm8eEwiKO+xA0250ZvaZ1CrNbNJcUuX4/yM7wcV+ow58WQpluM1m3KZtnjVEf7W3HKCr3B6e/+mGcSPvvLCQ==",
     "notes":  [
-                  "[수정] 그림만 보낸 말이 대화 기록에 들어와도 \"보내는 중\" 말풍선이 2분 동안 맨 아래에 남아, 같은 그림이 두 번 보이고 새 답이 올 때마다 그림이 아래로 밀려 순서가 어긋나던 것 (아주 긴 말도 같은 문제가 있던 것을 함께 고침)"
+                  "[새 기능] 인계 문서: 세션 메뉴(목록·보드 칸)의 \"인계 문서 만들기\"로 대화를 HANDOFF.md(먼저 읽을 문서)와 TRANSCRIPT.md(전체 대화)로 정리해 문서 창으로 열어요. 새 Claude 대화나 Codex 같은 다른 에이전트에 넘겨 이어 갈 수 있어요",
+                  "[새 기능] \"새 대화로 이어 하기\": 인계 문서를 만들고 같은 폴더에 새 대화를 열어 입력칸에 이어받기 안내를 채워요 (보내기는 직접, 이어받는 쪽은 먼저 상황을 정리해 확인받아요)",
+                  "[새 기능] 인계 문서에는 마지막 상황(끝났는지·끊긴 곳·한도·남은 백그라운드 작업·답을 기다리는 질문·계획), Claude가 쓴 압축 요약과 그 뒤 대화, 사용자 말 원문과 질문 창에서 고른 답, 하위 에이전트 보고, 바뀐 파일·git 상태, 사용자 규칙과 메모리가 들어가요. 비밀번호·토큰·키·PIN처럼 보이는 값은 가려요",
+                  "[개선] 답 속에 코드로 쓴 파일·폴더 경로(`Logs\\run\\shot.png`, `src/main.rs:12`, `D:\\폴더`)도 눌러서 열려요. 그림·영상·PDF는 기본 앱으로, 폴더는 탐색기로, .md는 문서 창으로, 나머지는 VS Code로",
+                  "[개선] \"작업 끝남\" 같은 알림에 세션 이름(카드 이름이나 제목)과 마지막 질문이 나와 어느 세션인지 알 수 있어요. 알림을 누르면 그 세션이 있는 곳으로 가요: 보드에 있으면 그 쪽으로 넘기고 칸을 두 번 반짝여 보여 주고, 따로 띄운 대화 창이면 그 창을, 아니면 옆 칸이나 새 창으로 열어요",
+                  "[수정] 다른 프로그램이 대화 기록 없이 잠깐 돌린 Claude(`claude -p`)가 \"작업 끝남 · empty\" 같은 알 수 없는 알림을 띄우던 것을 고쳤어요",
+                  "[새 기능] 휴대폰 리모트: 대화 입력칸 아래 \"리모트\" 칩(또는 `/remote-control`, `/rc`)을 켜면 휴대폰 Claude 앱의 Code 탭이나 claude.ai/code에서 그 세션을 이어 써요. 휴대폰에서 보낸 말·답·권한 확인이 ClaudeBook 화면에도 그대로 보이고, PC에서도 계속 쓸 수 있어요",
+                  "[새 기능] 리모트를 켠 세션은 창을 닫아도 claude를 남겨 두고, ClaudeBook을 다시 켜거나 업데이트해도 다시 연결해요. 칩에 연결 상태(연결됨·연결 중·끊김·오류)가 보이고, 오른쪽 클릭하면 세션 주소를 복사해요"
               ]
 }
