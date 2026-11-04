@@ -1,23 +1,25 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.18.1",
-    "date":  "2026-11-04T11:35:46+09:00",
+    "version":  "0.18.2",
+    "date":  "2026-11-04T15:10:07+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.18.1-setup.exe",
-                      "size":  8433020,
-                      "sha256":  "dfbea02e48cf44f12f0864b96bb3db89316c3a1dcc4d5bcd9bac65731395b67b",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.18.1/ClaudeBook-0.18.1-setup.exe"
+                      "name":  "ClaudeBook-0.18.2-setup.exe",
+                      "size":  8451425,
+                      "sha256":  "51840f0c4bb74c8128be971bd74d2fef2706b0d51031b4a2d33ef45a6393dfd9",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.18.2/ClaudeBook-0.18.2-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.18.1.html",
+                      "name":  "ClaudeBook-사용가이드-0.18.2.html",
                       "size":  1289654,
-                      "sha256":  "86a7aa82366101d1cc50b0e1604e6900eabf78eb55d893938b0e1eac38ce5684",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.18.1/ClaudeBook-사용가이드-0.18.1.html"
+                      "sha256":  "c574cdc7d978cf4a606b1749629a5b4de484d1cb6f30fc20be9426b79b1d8e43",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.18.2/ClaudeBook-사용가이드-0.18.2.html"
                   }
               ],
-    "signature":  "Prk79p/xqOGbWMQf2a+ovVUHRuBcnZqKKIUS0/dYgdHvB4N4Mq0xf9FDVjr40yv03uTe2OKLTeui3CSyBuX/BA==",
+    "signature":  "Sdk/c6Xx3kWnwhXKYPXzBka38cszLanMvUgaj0k3kO4oKtVqDy6utmR1+g9zYtjvAzauOM1WJUJk8kMmXU2TDg==",
     "notes":  [
-                  "[새 기능] 보드 칸을 다른 보드로 옮길 수 있어요: 칸 메뉴(⋯)의 \"다른 보드로 옮기기\"에서 보드를 고르거나 \"새 보드로\". 읽던 대화와 입력 중인 글은 그대로 넘어가고, 받는 보드가 닫혀 있으면 열어서 옮긴 칸을 반짝여 보여 줘요. 받는 보드에 이미 있는 세션이면 이 보드에서만 빠져요"
+                  "[새 기능] 입력칸에서 ↑로 이전에 입력한 말을 다시 불러요 (↓는 다음 것, 끝까지 내려오면 쓰던 글로). 이 대화의 말·명령과, 같은 폴더의 다른 세션에서 이번에 보낸 말까지. 여러 줄 글에서는 첫 줄·마지막 줄에서만 넘어가요",
+                  "[수정] 슬래시 명령(`/fix-jira-issue DC3084` 같은)을 보내면 \"보내는 중\" 말풍선이 2분 동안 남던 것을 고쳤어요",
+                  "[수정] 보낸 말을 Esc로 바로 멈추면 \"보내는 중\" 말풍선이 계속 남던 것을 고쳤어요 (턴이 끝나고 기록에 없으면 3초 뒤 사라져요)"
               ]
 }
