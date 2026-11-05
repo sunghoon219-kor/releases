@@ -1,33 +1,29 @@
 {
     "name":  "rmt",
-    "version":  "0.3.23",
-    "date":  "2026-11-05T11:05:22+09:00",
+    "version":  "0.3.24",
+    "date":  "2026-11-05T11:33:29+09:00",
     "files":  [
                   {
-                      "name":  "rmt-setup-0.3.23.exe",
-                      "size":  22550016,
-                      "sha256":  "6db5ca680d2d12586fdefd0fe56b4c16745dc6e362820620ed5de58118ed77ee",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.23/rmt-setup-0.3.23.exe"
+                      "name":  "rmt-setup-0.3.24.exe",
+                      "size":  22553088,
+                      "sha256":  "4a868a007641115d8b68b47d303461df8c4e80a4e4850a7ba88b3b2fa0e1b4ad",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.24/rmt-setup-0.3.24.exe"
                   },
                   {
-                      "name":  "rmt-0.3.23-windows-x64.zip",
-                      "size":  16176453,
-                      "sha256":  "d01a98d3594da37150e14bbab7d311acac71b57dabbb2608bcf28c09a101d958",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.23/rmt-0.3.23-windows-x64.zip"
+                      "name":  "rmt-0.3.24-windows-x64.zip",
+                      "size":  16179155,
+                      "sha256":  "4ef039efa4edc2982e93731b3a16af5cd577d8fd8614c6613bbed6acbf868223",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.24/rmt-0.3.24-windows-x64.zip"
                   },
                   {
-                      "name":  "rmt-android-0.3.23.apk",
+                      "name":  "rmt-android-0.3.24.apk",
                       "size":  2434003,
-                      "sha256":  "7233035d92309a310d091e98851ddf9875fac8bc60ef7e894f4f9cb8b2f9c652",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.23/rmt-android-0.3.23.apk"
+                      "sha256":  "ab13cbd0748f0ca38e1264a6f1d71147b3f86fc2857972f10150cdd8a17f3b5e",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.24/rmt-android-0.3.24.apk"
                   }
               ],
-    "signature":  "WrcuoOXHgwKz6LXRhlSiRYj8RrzOGQaGyqNLcvY5w+LeFEMauK0NLjuGDoEvD6xtAg/PFtDgejE3i4+V14WlAQ==",
+    "signature":  "mjzTN2BgH/bfR8750FhNvwa+46VS/mkfweHbdLvehsCtvFvIOw61i8eeeKJHXXmsBKuW2k1nS+zu2DOyuGiaCA==",
     "notes":  [
-                  "수정: 호스트에서 [연결 끊기]·[모든 연결 끊기]·[끝내기]를 눌러도 PC 클라이언트가 네트워크 끊김으로 보고 2초 뒤 다시 붙던 문제. 이제 다시 연결하지 않고 \"호스트에서 연결을 끊었어요\"를 알려 줘요.",
-                  "수정: 호스트에서 [중지]를 누르면 PC 클라이언트가 다시 연결을 5번까지 헛되이 시도하던 문제. 이제 바로 멈추고 \"호스트를 중지했어요\"를 알려 줘요.",
-                  "수정: 호스트에서 이 기기의 허용을 취소했을 때, 같은 기기의 다른 연결에 밀려났을 때도 다시 연결하지 않고 이유를 알려 줘요.",
-                  "개선: 휴대폰도 호스트가 일부러 끊었으면 통신 오류 문구 대신 같은 이유를 보여 줘요.",
-                  "개선: 네트워크 끊김, 호스트 업데이트, 서비스 재시작, PC 재부팅, 설정 변경으로 인한 호스트 다시 시작 때는 지금처럼 자동으로 다시 연결해요."
+                  "개선: 도구 줄에 [최소화] 단추를 넣었어요. 누르면 그 화면 창이 작업 표시줄로 내려가고 키보드 가로채기도 풀려서, 단축키 없이 바로 지금 쓰는 PC로 돌아올 수 있어요. 연결은 유지되고 작업 표시줄에서 다시 열면 이어져요."
               ]
 }
