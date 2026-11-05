@@ -1,23 +1,25 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.19.5",
-    "date":  "2026-11-05T16:38:38+09:00",
+    "version":  "0.19.6",
+    "date":  "2026-11-05T17:39:45+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.19.5-setup.exe",
-                      "size":  8839035,
-                      "sha256":  "2eecab240a1431e5e7a422c75cdf17c9eeaabcdd78d644a35a5ed14aecd17abf",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.5/ClaudeBook-0.19.5-setup.exe"
+                      "name":  "ClaudeBook-0.19.6-setup.exe",
+                      "size":  8848394,
+                      "sha256":  "0fb862923b01626929a4081dcc096ae120baab11a8c21925aec8c2a114031363",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.6/ClaudeBook-0.19.6-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.19.5.html",
-                      "size":  1619431,
-                      "sha256":  "21bab60e9311e70373faeb5c31b9314e64a279bb8e8a0fc5883a041afe36964a",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.5/ClaudeBook-사용가이드-0.19.5.html"
+                      "name":  "ClaudeBook-사용가이드-0.19.6.html",
+                      "size":  1619613,
+                      "sha256":  "d3b7aed3a24ee23afc5935f82c879f754749d3fb3e7bc83713705d13f6f62561",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.6/ClaudeBook-사용가이드-0.19.6.html"
                   }
               ],
-    "signature":  "9v8CuRv18waabKNIZrujDv4xv1rKuJJE01o9OM2UGvj0s8gVOYZ7bEwoQ6KCHIUnRdGEYy5YUbimsdJEFWSrCg==",
+    "signature":  "sRloJoPdfhpUeL1KRRySwj7nAPKmWD8nzPNsFX9USzLP5inQv1EPOBxXPb8toPQDKBiP1UKWUScUpD+0Z3uODA==",
     "notes":  [
-                  "개선: 입력칸에 /mcp를 치면 MCP 서버 창이 떠요. 연결 상태와 도구 수, 오류를 보고, 서버를 끄고 켜거나 다시 연결할 수 있어요 (↑↓로 고르고 Enter). 끄면 그 프로젝트에서 계속 꺼져 있어요"
+                  "수정: / 명령의 결과(예: \"isn\u0027t a recognized /mcp action\")가 지워지지 않고 대화 맨 아래에 계속 붙어 보이던 것을 고쳤어요. 새 답이 와도 그 아래에 남았어요",
+                  "수정: 새로 여는 문서 창과 대화 창이 Windows가 정한 자리에 떠서 모니터가 여럿이면 다른 화면에 뜰 수 있던 것을 고쳤어요. 이제 누른 화면(마우스가 있는 모니터) 가운데에 떠요. 이미 열린 문서를 다시 누르면 그 창을 누른 화면으로 옮겨 와요",
+                  "수정: 답에 쓴 파일 경로를 눌러도 열리지 않던 것을 고쳤어요. 세션 폴더(예: D:\\\\)와 Claude가 일하는 저장소(예: D:\\\\RigForge)가 다르면 `tools/x.md` 같은 상대 경로를 세션 폴더에서만 찾아 실패했어요. 이제 그 대화에서 쓴 폴더, 윗 폴더, 아래 폴더까지 찾아 .md는 문서 창으로 열어요. Git Bash 꼴(`/d/x/a.md`) 경로도 열려요"
               ]
 }
