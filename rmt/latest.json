@@ -1,29 +1,31 @@
 {
     "name":  "rmt",
-    "version":  "0.3.24",
-    "date":  "2026-11-05T11:33:29+09:00",
+    "version":  "0.3.25",
+    "date":  "2026-11-05T15:21:16+09:00",
     "files":  [
                   {
-                      "name":  "rmt-setup-0.3.24.exe",
-                      "size":  22553088,
-                      "sha256":  "4a868a007641115d8b68b47d303461df8c4e80a4e4850a7ba88b3b2fa0e1b4ad",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.24/rmt-setup-0.3.24.exe"
+                      "name":  "rmt-setup-0.3.25.exe",
+                      "size":  22559232,
+                      "sha256":  "d98cea190a5f1ad796150d0802833e0836966630fd1758ffdd9afe6d80845568",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.25/rmt-setup-0.3.25.exe"
                   },
                   {
-                      "name":  "rmt-0.3.24-windows-x64.zip",
-                      "size":  16179155,
-                      "sha256":  "4ef039efa4edc2982e93731b3a16af5cd577d8fd8614c6613bbed6acbf868223",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.24/rmt-0.3.24-windows-x64.zip"
+                      "name":  "rmt-0.3.25-windows-x64.zip",
+                      "size":  16185473,
+                      "sha256":  "9f24df608a785b6e31b3e75dcba60f6ffcad76e23d7fa349768991d135b0b62e",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.25/rmt-0.3.25-windows-x64.zip"
                   },
                   {
-                      "name":  "rmt-android-0.3.24.apk",
+                      "name":  "rmt-android-0.3.25.apk",
                       "size":  2434003,
-                      "sha256":  "ab13cbd0748f0ca38e1264a6f1d71147b3f86fc2857972f10150cdd8a17f3b5e",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.24/rmt-android-0.3.24.apk"
+                      "sha256":  "329464e5322fd549e660d66f077f5c40fa9f05311b57c560bcb078a88e5a758a",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.25/rmt-android-0.3.25.apk"
                   }
               ],
-    "signature":  "mjzTN2BgH/bfR8750FhNvwa+46VS/mkfweHbdLvehsCtvFvIOw61i8eeeKJHXXmsBKuW2k1nS+zu2DOyuGiaCA==",
+    "signature":  "LC1+dR3CYYtfVW6gjBkzdBBr5gCKUkxvpjrygXn2efZKEnD1DLT08nzsCoi2e9Jx3LujOHb+nWpO/fYX+pRbDA==",
     "notes":  [
-                  "개선: 도구 줄에 [최소화] 단추를 넣었어요. 누르면 그 화면 창이 작업 표시줄로 내려가고 키보드 가로채기도 풀려서, 단축키 없이 바로 지금 쓰는 PC로 돌아올 수 있어요. 연결은 유지되고 작업 표시줄에서 다시 열면 이어져요."
+                  "수정: 호스트가 서비스 모드면 원격 화면의 탐색기에서 복사한 파일이 접속한 PC로 오지 않던 문제. 0.3.22에서 고쳤다고 했지만 실제로는 고쳐지지 않았어요. 서비스 도우미는 복사한 파일을 아예 알아채지 못하고 있었어요. 이제 사용자 권한 보조 프로세스(`rmt-host --clip-watch`)가 복사를 지켜보고 알려 줘서, 복사하면 바로 접속한 PC로 받아 Ctrl+V로 붙여 넣을 수 있어요.",
+                  "개선: 다른 프로그램이 클립보드를 잡고 있어 변경을 읽지 못하면 호스트 기록에 남겨요.",
+                  "개선: 서비스 모드에서 복사한 파일을 어디까지 처리했는지 호스트 기록(`agent.log`)에서 따라갈 수 있어요."
               ]
 }
