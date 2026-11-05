@@ -1,23 +1,23 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.19.4",
-    "date":  "2026-11-05T15:00:40+09:00",
+    "version":  "0.19.5",
+    "date":  "2026-11-05T16:38:38+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.19.4-setup.exe",
-                      "size":  8820625,
-                      "sha256":  "3d533080f86168d706c169d5ddf9754cdff93ec2d69d7dbd077187af72cfc15d",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.4/ClaudeBook-0.19.4-setup.exe"
+                      "name":  "ClaudeBook-0.19.5-setup.exe",
+                      "size":  8839035,
+                      "sha256":  "2eecab240a1431e5e7a422c75cdf17c9eeaabcdd78d644a35a5ed14aecd17abf",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.5/ClaudeBook-0.19.5-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.19.4.html",
-                      "size":  1619173,
-                      "sha256":  "ae0bd8ec976c447ed104474e7c83ebba4ee5bce39ef1857dcacf990631db44d6",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.4/ClaudeBook-사용가이드-0.19.4.html"
+                      "name":  "ClaudeBook-사용가이드-0.19.5.html",
+                      "size":  1619431,
+                      "sha256":  "21bab60e9311e70373faeb5c31b9314e64a279bb8e8a0fc5883a041afe36964a",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.5/ClaudeBook-사용가이드-0.19.5.html"
                   }
               ],
-    "signature":  "zBoV6NtXL8CWts83Kh9XuiDGAeQoZXJeouaNSg9TfC7FIjTz7QbPfdqEo+C5F/nB2PrqRoRfh5Mzt0t+6cEMCA==",
+    "signature":  "9v8CuRv18waabKNIZrujDv4xv1rKuJJE01o9OM2UGvj0s8gVOYZ7bEwoQ6KCHIUnRdGEYy5YUbimsdJEFWSrCg==",
     "notes":  [
-                  "개선: 이미지를 눌러 크게 본 창에서 Ctrl+C나 [복사] 단추로 그림을 복사할 수 있어요. 원본 크기로 복사돼요"
+                  "개선: 입력칸에 /mcp를 치면 MCP 서버 창이 떠요. 연결 상태와 도구 수, 오류를 보고, 서버를 끄고 켜거나 다시 연결할 수 있어요 (↑↓로 고르고 Enter). 끄면 그 프로젝트에서 계속 꺼져 있어요"
               ]
 }
