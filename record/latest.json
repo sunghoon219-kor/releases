@@ -1,27 +1,17 @@
 {
     "name":  "Record",
-    "version":  "0.1.7",
-    "date":  "2026-11-03T17:05:33+09:00",
+    "version":  "0.1.8",
+    "date":  "2026-11-07T23:55:20+09:00",
     "files":  [
                   {
-                      "name":  "Record-0.1.7-setup.exe",
-                      "size":  5639948,
-                      "sha256":  "bfbec6080abf5ee68b3d52f0f1dec603531e895ffd0973dc711efe0a439a4ec6",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/record-v0.1.7/Record-0.1.7-setup.exe"
+                      "name":  "Record-0.1.8-setup.exe",
+                      "size":  5639808,
+                      "sha256":  "d60baa2435de5c07703b90cc7e79a85cd453b86032af2abf85fa876f67f18d07",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/record-v0.1.8/Record-0.1.8-setup.exe"
                   }
               ],
-    "signature":  "XBK+w/lTT7KtybHCgWHshC24zTzB1LQFiWZ6XDy9XTjNvDUNMcfqJTEDTv/NdZy0mex9WVMD55fsolEg09q+AQ==",
+    "signature":  "WKR4LYdBc/0+GgPkrfL/5Bz3Bo05BSyfuDJIp0wD5c7mIc3nSVOXTeA8iwvIEci7BmHB94E0WTOwmKl6u+MAAw==",
     "notes":  [
-                  "수정: 녹화가 길어지거나 컴퓨터가 잠깐 버벅이면 소리가 영상보다 밀리던 문제, 일시정지 뒤 소리가 조금 앞서던 문제",
-                  "수정: 녹화 중 마이크·스피커를 뽑거나 기본 장치를 바꾸면 끝까지 소리가 빠지던 문제 (다시 연결되면 이어서 녹음해요)",
-                  "수정: 업데이트 설치가 실패하면 Record가 꺼진 채로 남던 문제 (이제 다시 켜지고 이유를 알려 줘요)",
-                  "수정: 녹화 중 오류가 나면 파일이 재생되지 않던 문제",
-                  "수정: 화면 밖에 저장된 영역이 보이는 곳과 다른 곳을 녹화하던 문제, 해상도가 바뀌어 영역이 화면 밖으로 나가면 같은 그림만 녹화하던 문제",
-                  "수정: 트레이에 숨긴 채 녹화를 시작하면 작업 표시줄에 창이 나타나던 문제",
-                  "수정: 파일 이름이 NUL·CON 같은 이름이면 파일이 생기지 않던 문제",
-                  "수정: 설정 파일을 잠시 읽지 못하면 설정이 기본값으로 덮어써지던 문제",
-                  "개선: 설정 \"일반\"에서 색 테마 5가지와 글자 밝기를 고를 수 있어요 (rmt·ClaudeBook과 같은 디자인). 영역 창도 고른 색을 따라가요.",
-                  "개선: 같은 프로그램 창이 여러 개면 엉뚱한 창을 녹화하지 않고 다시 골라 달라고 해요.",
-                  "개선: 그래픽 드라이버가 다시 시작돼도 영역 창이 다시 그려져요."
+                  "수정: Windows Defender가 0.1.7을 악성 프로그램(Trojan:Win32/Bearfoos)으로 잘못 판정해 지우던 문제 (다시 빌드한 판이에요. 0.1.7이 지워진 PC는 이 판을 한 번 직접 설치해 주세요)"
               ]
 }
