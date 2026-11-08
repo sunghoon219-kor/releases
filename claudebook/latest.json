@@ -1,25 +1,27 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.19.6",
-    "date":  "2026-11-05T17:39:45+09:00",
+    "version":  "0.19.7",
+    "date":  "2026-11-08T18:08:05+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.19.6-setup.exe",
-                      "size":  8848394,
-                      "sha256":  "0fb862923b01626929a4081dcc096ae120baab11a8c21925aec8c2a114031363",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.6/ClaudeBook-0.19.6-setup.exe"
+                      "name":  "ClaudeBook-0.19.7-setup.exe",
+                      "size":  8920061,
+                      "sha256":  "14b449bb1c42cb73fb51063ef2900d162d079f1def1576e89d0d9769abdf297b",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.7/ClaudeBook-0.19.7-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.19.6.html",
-                      "size":  1619613,
-                      "sha256":  "d3b7aed3a24ee23afc5935f82c879f754749d3fb3e7bc83713705d13f6f62561",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.6/ClaudeBook-사용가이드-0.19.6.html"
+                      "name":  "ClaudeBook-사용가이드-0.19.7.html",
+                      "size":  1621599,
+                      "sha256":  "0440f954de39855c8a82d717114f70a6530a9fd1c0cd188de8737097bf4d4f23",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.7/ClaudeBook-사용가이드-0.19.7.html"
                   }
               ],
-    "signature":  "sRloJoPdfhpUeL1KRRySwj7nAPKmWD8nzPNsFX9USzLP5inQv1EPOBxXPb8toPQDKBiP1UKWUScUpD+0Z3uODA==",
+    "signature":  "eEuc0+a8XG+IzLt1hPzP0xU6+1RgSOpZhuTJKaIYBrILaSxqEPSj4bgMppghacC6zPkh/vSC3fvqajHONq2MAw==",
     "notes":  [
-                  "수정: / 명령의 결과(예: \"isn\u0027t a recognized /mcp action\")가 지워지지 않고 대화 맨 아래에 계속 붙어 보이던 것을 고쳤어요. 새 답이 와도 그 아래에 남았어요",
-                  "수정: 새로 여는 문서 창과 대화 창이 Windows가 정한 자리에 떠서 모니터가 여럿이면 다른 화면에 뜰 수 있던 것을 고쳤어요. 이제 누른 화면(마우스가 있는 모니터) 가운데에 떠요. 이미 열린 문서를 다시 누르면 그 창을 누른 화면으로 옮겨 와요",
-                  "수정: 답에 쓴 파일 경로를 눌러도 열리지 않던 것을 고쳤어요. 세션 폴더(예: D:\\\\)와 Claude가 일하는 저장소(예: D:\\\\RigForge)가 다르면 `tools/x.md` 같은 상대 경로를 세션 폴더에서만 찾아 실패했어요. 이제 그 대화에서 쓴 폴더, 윗 폴더, 아래 폴더까지 찾아 .md는 문서 창으로 열어요. Git Bash 꼴(`/d/x/a.md`) 경로도 열려요"
+                  "수정: OpenRouter 모델 목록에 대화에 쓸 수 없는 일괄 처리용 모델(이름이 `:batch`로 끝남, 80개)이 섞여 있어 고르면 \"cannot be used\" 오류가 나던 것을 고쳤어요. 목록에서 뺐어요",
+                  "수정: 보드를 바꾸면 위로 올려 읽던 칸이 맨 위로 가거나 엉뚱한 곳으로 튀던 것을 고쳤어요. 스크롤 자리를 창마다 따로 기억해서, 칸이 다른 창으로 옮겨 가면 자리를 잃었어요. 이제 칸이 자기 자리를 들고 가서 보던 내용이 그대로 보여요 (다른 보드로 옮기기, 창으로 떼기, 보드로 합치기, 닫은 보드를 다시 열 때도 같아요)",
+                  "수정: 창 크기를 바꾸거나 도구 숨기기를 켜고 끌 때 위로 올려 읽던 자리가 밀리던 것도 보던 항목에 맞춰 둬요",
+                  "개선: VS Code나 터미널에서 연 세션의 권한 확인과 질문도 ClaudeBook에서 답할 수 있어요. 설정 → \"다른 곳에서 연 세션\"을 켜거나, 그 세션의 \"답을 기다립니다\" 줄에서 [여기서도 답하기 켜기]를 누르세요. 그 세션 화면에 카드가 뜨고, 여기서 답하면 VS Code 쪽 확인 창은 저절로 닫혀요. 그쪽에서 먼저 답해도 돼요. 켜고 난 뒤 새로 시작한(다시 연) 세션부터 적용되고, 계획 승인은 그곳에서 답해요. ClaudeBook을 제거하면 넣었던 훅도 함께 빠져요",
+                  "개선: 지금 대화는 그대로 두고 다른 모델에게 따로 물어볼 수 있어요. 대화 창 머리의 말풍선 단추나 `/side 질문`으로 카드를 열고 Opus·Sonnet·Haiku나 OpenRouter 모델(GPT·Gemini·DeepSeek 등)을 골라 물어요. 이 대화의 요약(최대 3만 자, 비밀값은 가림)을 함께 보낼 수 있고, 받은 답은 [입력칸에 넣기]로 이 대화에 이어 보내요. 이 대화의 모델을 바꾸지 않아 캐시가 그대로라, 모델을 바꿀 때처럼 대화 전체를 다시 읽는 비용이 들지 않아요. Claude 모델은 이 폴더의 파일을 읽기만 하고(고치거나 명령을 실행하지 못해요), OpenRouter 모델은 요약과 질문만 받아요"
               ]
 }
