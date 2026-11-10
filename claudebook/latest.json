@@ -1,24 +1,27 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.19.8",
-    "date":  "2026-11-08T21:12:59+09:00",
+    "version":  "0.19.9",
+    "date":  "2026-11-10T14:08:25+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.19.8-setup.exe",
-                      "size":  11425817,
-                      "sha256":  "5cb1d66a6e283610ad1c2b4592353dc90a4c79797200f1a90324a45293310b56",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.8/ClaudeBook-0.19.8-setup.exe"
+                      "name":  "ClaudeBook-0.19.9-setup.exe",
+                      "size":  11502953,
+                      "sha256":  "f973a028168f7d4f35b8127855bf85ec831f48500f1c1b395d67b37b399253b7",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.9/ClaudeBook-0.19.9-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.19.8.html",
-                      "size":  1623720,
-                      "sha256":  "3eac688b7d7b3882c7d418419bc3a9f4524a0bc6ade23461929353f6dd37e7cd",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.8/ClaudeBook-사용가이드-0.19.8.html"
+                      "name":  "ClaudeBook-사용가이드-0.19.9.html",
+                      "size":  1625860,
+                      "sha256":  "5999cf45940357a4353ab1f22c5fc86ac97602b59889e2ea5257d10b3820422a",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.9/ClaudeBook-사용가이드-0.19.9.html"
                   }
               ],
-    "signature":  "Mcm6H5xyolsZK4HuGXAZwWCTjKknbqDgryz9u/1pkKHDo0qbEdSHc5ctOtTwouaADVY+cjwszH13p2m48cxqDQ==",
+    "signature":  "5ZMj+RDxWVXLh/LHhH9BTCDTKJv7pFS8LQF45WlN1czD1w2LHX4/MeAPX7hkJYkZM2WFHA4zHc56t3a1GGTvDg==",
     "notes":  [
-                  "수정: GitHub의 릴리즈 다운로드 주소가 막히면(504) 업데이트가 \"받지 못했어요\"로 끝나던 것을 고쳤어요. 이제 그 주소가 안 되면 GitHub API로 같은 파일을 다시 받아요. 어느 길로 받든 서명된 크기·SHA-256이 맞아야 설치해요 (이 판부터 다음 업데이트에 적용돼요)",
-                  "개선: 다른 PC(서브컴)에서 Claude Code를 돌리고 여기서 대화할 수 있어요. 그 PC에 ClaudeBook을 깔고 시작 메뉴의 \"ClaudeBook 서버 (이 PC를 서브컴으로)\"를 한 번 실행한 뒤, 설정 → 다른 PC에 주소와 숫자를 넣어 짝지으세요. 새 대화 창의 PC 줄에서 고르면 그 PC의 폴더에서 일하고, 연결이 끊기거나 이 PC를 껐다 켜도 그쪽 세션에 저절로 다시 붙어요"
+                  "수정: `/permissions`·`/hooks`·`/memory`·`/status`·`/skills`·`/tasks`·`/resume`·`/help`·`/diff`·`/copy`·`/add-dir` 같은 Claude Code의 화면 명령이 ClaudeBook에서 \"isn\u0027t available in this environment\"로 끝나거나, 모르는 글로 모델에게 넘어가던 것을 고쳤어요. 이제 ClaudeBook 창으로 열려요",
+                  "수정: `/theme`·`/terminal-setup`·`/upgrade`처럼 터미널에서만 되는 명령을 보내면 아무 일 없이 끝나던 것을 고쳤어요. 무엇인지와 어디서 하는지 알려 주고, 계정 페이지(`/upgrade`·`/privacy-settings`·`/usage-credits`·`/feedback`)는 브라우저로 열어요",
+                  "수정: 서브컴 서버를 새 판으로 바꿔 넣을 때 백신이 이전 판 실행을 막으면(지켜보기용) 바꿔 넣기가 중간에 멈춰 새 판이 뜨지 못하던 것을 고쳤어요. 이제 바꿔 넣기는 마치고 그 사실만 기록에 남겨요",
+                  "개선: 명령 화면을 더했어요. `/permissions`: 허용·물어보기·거부 규칙과 작업 폴더를 보고, 더하고, 빼요 (이 프로젝트·나만, 이 프로젝트·함께, 내 모든 프로젝트 가운데 골라 저장하고 이 대화에 1~2초 안에 적용돼요). `/config`: Claude Code 설정을 한국어 이름으로 보고 바꿔요. `/context`: 무엇이 컨텍스트를 얼마나 차지하는지 막대로. `/usage`(`/cost`): 이 세션 비용과 요금제 사용률·초기화 시각. `/memory`: CLAUDE.md 고치기·만들기와 자동 메모리. `/hooks`·`/skills`·`/status`·`/tasks`(출력 보기·끝내기)·`/diff`·`/plan`·`/help`도 창으로 열려요",
+                  "개선: `/copy`(마지막 답 복사)·`/resume`(지난 대화 고르기)·`/version`·`/exit`·`/btw 질문`(다른 모델에게 묻기)·`/plan 할 일`(계획 모드로 바로 보냄)·`/add-dir 폴더`를 그 자리에서 해요"
               ]
 }
