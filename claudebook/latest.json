@@ -1,27 +1,26 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.19.9",
-    "date":  "2026-11-10T14:08:25+09:00",
+    "version":  "0.19.10",
+    "date":  "2026-11-13T21:20:53+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.19.9-setup.exe",
-                      "size":  11502953,
-                      "sha256":  "f973a028168f7d4f35b8127855bf85ec831f48500f1c1b395d67b37b399253b7",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.9/ClaudeBook-0.19.9-setup.exe"
+                      "name":  "ClaudeBook-0.19.10-setup.exe",
+                      "size":  11529815,
+                      "sha256":  "42856af22f2317ae48237d72f44b890b6243b96546433c56d2ddf83aca1e1a43",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.10/ClaudeBook-0.19.10-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.19.9.html",
-                      "size":  1625860,
-                      "sha256":  "5999cf45940357a4353ab1f22c5fc86ac97602b59889e2ea5257d10b3820422a",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.9/ClaudeBook-사용가이드-0.19.9.html"
+                      "name":  "ClaudeBook-사용가이드-0.19.10.html",
+                      "size":  1625862,
+                      "sha256":  "bfc3b65607cabffa6559bc109c36a885b00441bcea134a092081c5345169d04e",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.10/ClaudeBook-사용가이드-0.19.10.html"
                   }
               ],
-    "signature":  "5ZMj+RDxWVXLh/LHhH9BTCDTKJv7pFS8LQF45WlN1czD1w2LHX4/MeAPX7hkJYkZM2WFHA4zHc56t3a1GGTvDg==",
+    "signature":  "aAuatN2a2lsc4fVXehe47xPEa8Qh/dqt3GhxNDhKfeu0Ny0HFxpxgtX+h2aclx1fuT7otPXwuMQ+v5/oFML1BQ==",
     "notes":  [
-                  "수정: `/permissions`·`/hooks`·`/memory`·`/status`·`/skills`·`/tasks`·`/resume`·`/help`·`/diff`·`/copy`·`/add-dir` 같은 Claude Code의 화면 명령이 ClaudeBook에서 \"isn\u0027t available in this environment\"로 끝나거나, 모르는 글로 모델에게 넘어가던 것을 고쳤어요. 이제 ClaudeBook 창으로 열려요",
-                  "수정: `/theme`·`/terminal-setup`·`/upgrade`처럼 터미널에서만 되는 명령을 보내면 아무 일 없이 끝나던 것을 고쳤어요. 무엇인지와 어디서 하는지 알려 주고, 계정 페이지(`/upgrade`·`/privacy-settings`·`/usage-credits`·`/feedback`)는 브라우저로 열어요",
-                  "수정: 서브컴 서버를 새 판으로 바꿔 넣을 때 백신이 이전 판 실행을 막으면(지켜보기용) 바꿔 넣기가 중간에 멈춰 새 판이 뜨지 못하던 것을 고쳤어요. 이제 바꿔 넣기는 마치고 그 사실만 기록에 남겨요",
-                  "개선: 명령 화면을 더했어요. `/permissions`: 허용·물어보기·거부 규칙과 작업 폴더를 보고, 더하고, 빼요 (이 프로젝트·나만, 이 프로젝트·함께, 내 모든 프로젝트 가운데 골라 저장하고 이 대화에 1~2초 안에 적용돼요). `/config`: Claude Code 설정을 한국어 이름으로 보고 바꿔요. `/context`: 무엇이 컨텍스트를 얼마나 차지하는지 막대로. `/usage`(`/cost`): 이 세션 비용과 요금제 사용률·초기화 시각. `/memory`: CLAUDE.md 고치기·만들기와 자동 메모리. `/hooks`·`/skills`·`/status`·`/tasks`(출력 보기·끝내기)·`/diff`·`/plan`·`/help`도 창으로 열려요",
-                  "개선: `/copy`(마지막 답 복사)·`/resume`(지난 대화 고르기)·`/version`·`/exit`·`/btw 질문`(다른 모델에게 묻기)·`/plan 할 일`(계획 모드로 바로 보냄)·`/add-dir 폴더`를 그 자리에서 해요"
+                  "수정: 폴더 선택 창이 다른 창 뒤에 가려진 채 열려 있으면 \"다른 폴더 고르기\"·\"폴더 고르기\"를 다시 눌러도 아무 일이 없던 것을 고쳤어요. 이제 열려 있는 폴더 선택 창을 앞으로 가져오고 알려요. 열려 있다고 잘못 알고 있으면 새로 열어요",
+                  "수정: 새 대화가 목록 창 옆 칸에 열릴 때 목록 창이 최소화돼 있거나 트레이에 숨어 있으면 안 보이던 것을 고쳤어요. 이제 목록 창을 꺼내 보여요",
+                  "개선: 새 대화·새 세션을 열 때 단계(폴더 선택, 옆 칸·새 창·보드 칸, 창 열기)를 기록에 남겨요. 새 창이 안 열리면 언제 어디서 멈췄는지 알 수 있어요",
+                  "개선: 집 안 LLM 서버(DGX Spark의 vLLM 등)로 세션을 열 수 있어요. 설정 → 로컬 서버에 주소와 키를 넣으면 새 대화에서 \"로컬 서버\"를 고르고, 입력칸 아래에서 서버의 모델을 골라요. 내 서버라 값이 들지 않아요. 다른 모델에게 묻기에서도 고를 수 있어요"
               ]
 }
