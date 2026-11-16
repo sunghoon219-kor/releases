@@ -1,26 +1,25 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.19.10",
-    "date":  "2026-11-13T21:20:53+09:00",
+    "version":  "0.20.0",
+    "date":  "2026-11-16T19:04:50+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.19.10-setup.exe",
-                      "size":  11529815,
-                      "sha256":  "42856af22f2317ae48237d72f44b890b6243b96546433c56d2ddf83aca1e1a43",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.10/ClaudeBook-0.19.10-setup.exe"
+                      "name":  "ClaudeBook-0.20.0-setup.exe",
+                      "size":  11926185,
+                      "sha256":  "b7096c9840f4dfa97a906d65adb49e9bbe45bb6b160f08500415b35ff454226c",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.20.0/ClaudeBook-0.20.0-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.19.10.html",
-                      "size":  1625862,
-                      "sha256":  "bfc3b65607cabffa6559bc109c36a885b00441bcea134a092081c5345169d04e",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.19.10/ClaudeBook-사용가이드-0.19.10.html"
+                      "name":  "ClaudeBook-사용가이드-0.20.0.html",
+                      "size":  1625860,
+                      "sha256":  "59635fb85618b74ac1ba9a8a4028c805ff8918674786be9463949a0dc80a9b12",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.20.0/ClaudeBook-사용가이드-0.20.0.html"
                   }
               ],
-    "signature":  "aAuatN2a2lsc4fVXehe47xPEa8Qh/dqt3GhxNDhKfeu0Ny0HFxpxgtX+h2aclx1fuT7otPXwuMQ+v5/oFML1BQ==",
+    "signature":  "/T9Jv4ig4FhBr4gX8GUOmJ3XGq3SSFsjrSFn1A/9llRTr1Dj0MTqme5jlzpM78fpnYVVlUEhC8h4VpNfyZNTBA==",
     "notes":  [
-                  "수정: 폴더 선택 창이 다른 창 뒤에 가려진 채 열려 있으면 \"다른 폴더 고르기\"·\"폴더 고르기\"를 다시 눌러도 아무 일이 없던 것을 고쳤어요. 이제 열려 있는 폴더 선택 창을 앞으로 가져오고 알려요. 열려 있다고 잘못 알고 있으면 새로 열어요",
-                  "수정: 새 대화가 목록 창 옆 칸에 열릴 때 목록 창이 최소화돼 있거나 트레이에 숨어 있으면 안 보이던 것을 고쳤어요. 이제 목록 창을 꺼내 보여요",
-                  "개선: 새 대화·새 세션을 열 때 단계(폴더 선택, 옆 칸·새 창·보드 칸, 창 열기)를 기록에 남겨요. 새 창이 안 열리면 언제 어디서 멈췄는지 알 수 있어요",
-                  "개선: 집 안 LLM 서버(DGX Spark의 vLLM 등)로 세션을 열 수 있어요. 설정 → 로컬 서버에 주소와 키를 넣으면 새 대화에서 \"로컬 서버\"를 고르고, 입력칸 아래에서 서버의 모델을 골라요. 내 서버라 값이 들지 않아요. 다른 모델에게 묻기에서도 고를 수 있어요"
+                  "수정: 서브컴 세션에 말을 보내면 기록에 들어온 말 아래에 같은 말이 \"보내는 중\"으로 한 번 더 보이던 것을 고쳤어요. 보낸 말을 기록과 시각으로 맞춰 봤는데, 서브컴 기록은 서브컴 시계로 적혀 그 PC 시계가 몇 초만 늦어도 짝을 못 찾았어요. 이제 보낸 뒤에 기록에 쓰인 같은 말이면 시계와 상관없이 그 말로 봐요",
+                  "개선: 웹·폰 화면: 설정 → 웹·폰 화면을 켜면 PC 브라우저와 폰에서 ClaudeBook의 세션(서브컴 세션 포함)을 써요. 목록(진행 중·확인 필요가 맨 위), 대화(답·도구·변경 비교·생각), 보내기·대기열·멈추기, 사진 보내기, 권한·질문·계획 답하기, 모델·권한 모드·생각 수준 바꾸기, 새 세션 열기(이 PC·서브컴)가 돼요. 세션은 데스크톱 ClaudeBook이 쥐고 있어 데스크톱과 폰에서 같은 대화가 함께 보여요",
+                  "개선: 폰은 Tailscale로 붙어요: 설정에서 \"Tailscale로 내보내기\"를 누르면 tailnet 안의 기기에만 HTTPS로 열리고(공용 인터넷에는 안 열림), \"기기 추가\"의 QR을 폰으로 찍으면 짝지어져요. 짝지은 기기만 들어오고, 기기마다 보기만 하게 할 수 있어요. 홈 화면에 앱으로 추가할 수 있어요"
               ]
 }
