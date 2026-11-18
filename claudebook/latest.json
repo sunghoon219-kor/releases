@@ -1,33 +1,30 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.21.0",
-    "date":  "2026-11-18T09:20:44+09:00",
+    "version":  "0.21.1",
+    "date":  "2026-11-18T09:36:30+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.21.0-setup.exe",
-                      "size":  12193098,
-                      "sha256":  "bc74f156d87418a5d874a5966a4e9d1ed71b440cca4a55d72e0d99e6632d4a9a",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.0/ClaudeBook-0.21.0-setup.exe"
+                      "name":  "ClaudeBook-0.21.1-setup.exe",
+                      "size":  12240848,
+                      "sha256":  "db9a6f1397e9503ac8a43e72ae40088d547bac46c47cea09874dd7d5e9f78946",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.1/ClaudeBook-0.21.1-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-0.21.0.apk",
+                      "name":  "ClaudeBook-0.21.1.apk",
                       "size":  58630,
-                      "sha256":  "069c780b5c58eb435fa8510d5ae090005ed31c450b2f5abb62e8dbf028e19247",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.0/ClaudeBook-0.21.0.apk"
+                      "sha256":  "0d4f2d25e0e0c12b8a1755660985fb2712c71124dc733ca28e669ef430902887",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.1/ClaudeBook-0.21.1.apk"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.21.0.html",
+                      "name":  "ClaudeBook-사용가이드-0.21.1.html",
                       "size":  1625860,
-                      "sha256":  "355c5334bddb4053e74d5620367a1b9c3527e4b5d15e9402a41ed4ad4844f487",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.0/ClaudeBook-사용가이드-0.21.0.html"
+                      "sha256":  "0ba7a82563709af8cfae4ebbdcc3882d55df3c5f28ac18e0eb93cc74f158a19f",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.1/ClaudeBook-사용가이드-0.21.1.html"
                   }
               ],
-    "signature":  "XSaApowLwwis0z7RIeGHlc35B6BfavQuRpCOEPtxOicd1hJDb7lOA+MJklwt4i/8GsWH3PLv6yCtD1llMKtWCQ==",
+    "signature":  "ewt1U36vM/zDLT7x4aDHkPIJkKHRkXWaOJhJYchT2zrSo/n9lIkXoEduHavrrljpi8bnOpmgTAPe8GHg4YkeBA==",
     "notes":  [
-                  "수정: 웹·폰에서만 연 세션의 알림에 \"마지막 질문\"이 빠지던 것을 고쳤어요",
-                  "개선: 안드로이드 앱(ClaudeBook-\u003c판\u003e.apk): PC의 웹·폰 화면을 앱으로 쓰고, PC에 직접 붙어 작업 끝남·확인 필요를 폰 알림으로 받아요. 알림을 누르면 그 세션이 열려요. 폰을 다시 켜도 알림 연결이 다시 붙고, 잠깐 끊긴 사이의 알림도 받아요. 새 판이 나오면 앱이 받을지 물어요",
-                  "개선: 폰 앱 알림 설정(설정 → 웹·폰 화면): 끔 / PC를 2분 넘게 안 쓸 때만(기본) / 늘",
-                  "개선: 폰 브라우저로 기기 추가 QR을 열면 \"ClaudeBook 앱에서 열기\"와 \"이 브라우저에서 쓰기\"를 골라요. 앱이 없으면 그 화면에서 받을 수 있어요",
-                  "개선: Codex로 세션 열기: 새 세션을 만들 때(새 대화 창, 보드의 새 세션, 웹·폰의 새 세션) Claude 대신 Codex를 고를 수 있어요. 이 PC의 Codex CLI(ChatGPT 로그인)로 돌고, 대화 화면·대기열·멈추기·사진·권한 모드·모델(GPT)·생각 수준·승인 카드(명령 실행·파일 수정)·알림·웹·폰이 Claude 세션과 같이 돼요. 다시 켜도 이어 쓰고, /clear 해도 Codex로 남아요. 서브컴에서는 아직 Claude로만 돌려요"
+                  "수정: Codex 세션이 \"자동\" 모드인데도 명령마다(파일 읽기까지) 승인을 묻던 것을 고쳤어요. Windows에서는 Codex 샌드박스가 기본으로 꺼져 있어 명령마다 묻게 돼요. 이제 \"자동\"은 Codex의 자동 검토로 돌아, 위험한 것만 막고 나머지는 묻지 않아요(명령마다 검토에 몇 초씩 걸려요)",
+                  "수정: 설정 → 웹·폰 화면의 \"Tailscale로 내보내기\"가 20초 기다리다 \"끝나지 않았습니다\"로 끝나던 것을 고쳤어요. tailnet에서 Serve(HTTPS 내보내기)를 아직 켜지 않으면 Tailscale이 켤 때까지 기다리기 때문이었어요. 이제 바로 알려 주고 \"Tailscale 관리 화면에서 Serve 켜기\" 단추를 보여요"
               ]
 }
