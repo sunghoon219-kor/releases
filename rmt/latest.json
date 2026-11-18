@@ -1,32 +1,32 @@
 {
     "name":  "rmt",
-    "version":  "0.3.27",
-    "date":  "2026-11-16T16:49:18+09:00",
+    "version":  "0.3.28",
+    "date":  "2026-11-18T14:59:54+09:00",
     "files":  [
                   {
-                      "name":  "rmt-setup-0.3.27.exe",
-                      "size":  22584832,
-                      "sha256":  "db7e05569e4845cf7bdad7241caa3fd17858def3438547122ef48f9c543d8ed1",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.27/rmt-setup-0.3.27.exe"
+                      "name":  "rmt-setup-0.3.28.exe",
+                      "size":  22600704,
+                      "sha256":  "10fc59e516c03b89e14e3382dcae985c7de00ca3663e1efcfa2f47b3101bd64c",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.28/rmt-setup-0.3.28.exe"
                   },
                   {
-                      "name":  "rmt-0.3.27-windows-x64.zip",
-                      "size":  16208129,
-                      "sha256":  "6b3ed3c57f69c7cd88fd05b588e2ad4ab995bf97751b0f8d3aab3dae54bf7019",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.27/rmt-0.3.27-windows-x64.zip"
+                      "name":  "rmt-0.3.28-windows-x64.zip",
+                      "size":  16224314,
+                      "sha256":  "cd7389456ecd314d97d7636fd271054ec917121f56a04f03a37450fec0ee7762",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.28/rmt-0.3.28-windows-x64.zip"
                   },
                   {
-                      "name":  "rmt-android-0.3.27.apk",
-                      "size":  2434003,
-                      "sha256":  "accad451d81787cdb5dcde496b16f99fa83ca886d196364f7cd9d0a68f18b108",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.27/rmt-android-0.3.27.apk"
+                      "name":  "rmt-android-0.3.28.apk",
+                      "size":  2450387,
+                      "sha256":  "b25eb87426484b7f4b52e308a47208cdd9fc145190051aec0f966269801a46c8",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/rmt-v0.3.28/rmt-android-0.3.28.apk"
                   }
               ],
-    "signature":  "5KymkQLC3Nz6g1RA4vGHWgk9B6bu6GZuRPOhxvjpo7BIpCh9wkZDiITf+GxdiM6BtsZb/sKf4P67Hgz8CesFCg==",
+    "signature":  "DdWr142VyiYcScopR/6/pc/Y7H0bVWQQKwV7gp2PMDz9W+R5RwbwHkxfdjuD3YQUh+aap3wGg76yQvRSPbMWAA==",
     "notes":  [
-                  "수정: 원격지 PC를 다시 시작하면 접속지가 네트워크가 끊긴 줄 알고 2초 간격으로 5번(약 35초)만 다시 시도하다 그만두던 문제. 재부팅은 1분이 넘게 걸려서, 원격지가 다시 켜져 로그인 화면에서 기다리고 있어도 붙지 못했어요. 이제 원격지가 꺼지기 시작할 때 \"다시 시작하는 중\"이라고 알리고, 접속지는 다시 켜질 때까지(최대 15분) 기다렸다가 스스로 다시 붙어요.",
-                  "수정: 원격지 PC가 꺼지는 동안 서비스가 화면 도우미를 다시 띄워, 곧 끊길 연결을 받을 수 있던 문제.",
-                  "개선: 알림 없이 끊긴 경우(전원이 갑자기 꺼짐 등)에도 다시 연결 간격을 2·5·10·20·40초로 늘려, 약 100초 동안 다시 켜지기를 기다려요. 잠깐 끊긴 것은 지금처럼 2초 만에 다시 붙어요.",
-                  "개선: 다시 시작하는 동안 연결 창에 \"○○이(가) 다시 시작하고 있어요\"를 보여 줘요. [지금 다시 연결]과 [그만두기]를 누를 수 있어요."
+                  "수정: 휴대폰에 마우스를 연결해 오른쪽 클릭을 하면 Android가 뒤로 가기로 받아 연결을 끊을지 묻던 문제. 이제 오른쪽 클릭이 호스트로 그대로 가요.",
+                  "개선: 휴대폰 앱 오른쪽 위에 [화면 잠금] 단추를 넣었어요. 누르면 호스트 PC 모니터를 가리고 그 앞의 키보드·마우스를 막아요. 켜져 있으면 [화면 잠금 중]으로 보여요.",
+                  "개선: 휴대폰에 연결한 마우스(블루투스·USB·삼성 DeX)를 손가락 흉내 없이 그대로 보내요. 커서 이동, 왼쪽·오른쪽·가운데·옆 단추 클릭, 누른 채 끌기, 세로·가로 휠이 PC에서처럼 돼요.",
+                  "개선: 확대한 채 마우스 커서를 화면 가장자리에 두면 그쪽으로 화면이 자동으로 흘러가요. 가장자리 끝에 가까울수록 빨라요."
               ]
 }
