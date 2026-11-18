@@ -1,30 +1,29 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.21.1",
-    "date":  "2026-11-18T09:36:30+09:00",
+    "version":  "0.21.2",
+    "date":  "2026-11-18T09:53:38+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.21.1-setup.exe",
-                      "size":  12240848,
-                      "sha256":  "db9a6f1397e9503ac8a43e72ae40088d547bac46c47cea09874dd7d5e9f78946",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.1/ClaudeBook-0.21.1-setup.exe"
+                      "name":  "ClaudeBook-0.21.2-setup.exe",
+                      "size":  12242061,
+                      "sha256":  "1ad037ff5b29bf619bc5b90681bbdb3a76264f5b85e2922af6828cd2c2f30c50",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.2/ClaudeBook-0.21.2-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-0.21.1.apk",
+                      "name":  "ClaudeBook-0.21.2.apk",
                       "size":  58630,
-                      "sha256":  "0d4f2d25e0e0c12b8a1755660985fb2712c71124dc733ca28e669ef430902887",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.1/ClaudeBook-0.21.1.apk"
+                      "sha256":  "e4a9206be47ba564600644fc9130c21c85efe0f09d671fac56f0559e74caee97",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.2/ClaudeBook-0.21.2.apk"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.21.1.html",
+                      "name":  "ClaudeBook-사용가이드-0.21.2.html",
                       "size":  1625860,
-                      "sha256":  "0ba7a82563709af8cfae4ebbdcc3882d55df3c5f28ac18e0eb93cc74f158a19f",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.1/ClaudeBook-사용가이드-0.21.1.html"
+                      "sha256":  "b562e50a48a3119394d457d14fed105ba01a0cd5e9f2d13c31efe16e1819ed07",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.2/ClaudeBook-사용가이드-0.21.2.html"
                   }
               ],
-    "signature":  "ewt1U36vM/zDLT7x4aDHkPIJkKHRkXWaOJhJYchT2zrSo/n9lIkXoEduHavrrljpi8bnOpmgTAPe8GHg4YkeBA==",
+    "signature":  "VJqJ3jKiLH0EO2D+Xi+cm02wUSdM0XWf3gACYFLgvIEx3FUVgALKDorO2ZgwodcP1HM8ONvnYDb4B9hUENKoDw==",
     "notes":  [
-                  "수정: Codex 세션이 \"자동\" 모드인데도 명령마다(파일 읽기까지) 승인을 묻던 것을 고쳤어요. Windows에서는 Codex 샌드박스가 기본으로 꺼져 있어 명령마다 묻게 돼요. 이제 \"자동\"은 Codex의 자동 검토로 돌아, 위험한 것만 막고 나머지는 묻지 않아요(명령마다 검토에 몇 초씩 걸려요)",
-                  "수정: 설정 → 웹·폰 화면의 \"Tailscale로 내보내기\"가 20초 기다리다 \"끝나지 않았습니다\"로 끝나던 것을 고쳤어요. tailnet에서 Serve(HTTPS 내보내기)를 아직 켜지 않으면 Tailscale이 켤 때까지 기다리기 때문이었어요. 이제 바로 알려 주고 \"Tailscale 관리 화면에서 Serve 켜기\" 단추를 보여요"
+                  "수정: 업데이트 전부터 돌던 Codex 세션이 예전 방식(명령마다 묻기)으로 계속 돌던 것을 고쳤어요. 이제 업데이트 뒤 그 세션이 쉬는 틈에(작업·확인 대기가 없을 때) 예전 연결을 내리고, 다음 말을 보낼 때 새 방식으로 같은 대화를 이어 열어요"
               ]
 }
