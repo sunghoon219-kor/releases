@@ -1,29 +1,33 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.21.2",
-    "date":  "2026-11-18T09:53:38+09:00",
+    "version":  "0.21.3",
+    "date":  "2026-11-18T11:50:29+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.21.2-setup.exe",
-                      "size":  12242061,
-                      "sha256":  "1ad037ff5b29bf619bc5b90681bbdb3a76264f5b85e2922af6828cd2c2f30c50",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.2/ClaudeBook-0.21.2-setup.exe"
+                      "name":  "ClaudeBook-0.21.3-setup.exe",
+                      "size":  12295325,
+                      "sha256":  "e2416b87db332cd897d4e3680629a8b88588d4d9af6c5c70f6fb9cdd881cdc9e",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.3/ClaudeBook-0.21.3-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-0.21.2.apk",
+                      "name":  "ClaudeBook-0.21.3.apk",
                       "size":  58630,
-                      "sha256":  "e4a9206be47ba564600644fc9130c21c85efe0f09d671fac56f0559e74caee97",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.2/ClaudeBook-0.21.2.apk"
+                      "sha256":  "2955fba5a53f4c591707372a5e3472c6cd53c2cd5c922349f8d81407315eb319",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.3/ClaudeBook-0.21.3.apk"
                   },
                   {
-                      "name":  "ClaudeBook-사용가이드-0.21.2.html",
+                      "name":  "ClaudeBook-사용가이드-0.21.3.html",
                       "size":  1625860,
-                      "sha256":  "b562e50a48a3119394d457d14fed105ba01a0cd5e9f2d13c31efe16e1819ed07",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.2/ClaudeBook-사용가이드-0.21.2.html"
+                      "sha256":  "43ff92f1acaa154e5d1caec9367f07f0e21f4183caa83561c667098d761efcd6",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.21.3/ClaudeBook-사용가이드-0.21.3.html"
                   }
               ],
-    "signature":  "VJqJ3jKiLH0EO2D+Xi+cm02wUSdM0XWf3gACYFLgvIEx3FUVgALKDorO2ZgwodcP1HM8ONvnYDb4B9hUENKoDw==",
+    "signature":  "LbBekKUpas939nwv9X/ubd2FvSH98nSZRsxUPnx0ARHDzrFysBxP27qT5/ZS++lNKNqY4Z1NQkF1HU0kv8o+Bw==",
     "notes":  [
-                  "수정: 업데이트 전부터 돌던 Codex 세션이 예전 방식(명령마다 묻기)으로 계속 돌던 것을 고쳤어요. 이제 업데이트 뒤 그 세션이 쉬는 틈에(작업·확인 대기가 없을 때) 예전 연결을 내리고, 다음 말을 보낼 때 새 방식으로 같은 대화를 이어 열어요"
+                  "수정: 설정 창에서 \"웹·폰 화면 켜기\"를 켠 뒤 [저장]을 누르면 다음에 ClaudeBook을 켤 때 웹·폰 화면이 꺼져 있던 것을 고쳤어요. 그래서 폰 앱이 ERR_HTTP_RESPONSE_CODE_FAILURE로 붙지 못했어요(Tailscale은 닿았는데 PC가 듣지 않음)",
+                  "수정: 폰 앱: PC의 ClaudeBook이나 웹·폰 화면이 꺼져 있으면 알 수 없는 오류 화면 대신 무엇을 켜야 하는지 알려 주고, 켠 뒤 [열기]로 다시 붙어요",
+                  "개선: 계정과 사용량 창에 연결해 둔 곳을 모두 보여요: Claude, OpenAI · Codex(요금제, 사용률과 초기화 시각, 크레딧, 이 PC의 Codex 토큰), OpenRouter(남은 크레딧, 이 키로 오늘·이번 주·이번 달 쓴 돈, 키 한도). 크레딧이 1달러 밑이거나 한도에 닿으면 경고 색으로 알려요. [다시 받기]로 바로 새로 받아요",
+                  "개선: 위쪽 막대·트레이 풍선·웹과 폰 목록에도 Codex 사용률과 OpenRouter 남은 돈이 Claude 사용률 옆에 보여요(좁으면 중요한 것부터)",
+                  "개선: 토큰 사용량에 Codex 세션도 들어가요(합계·폴더별·세션별). 둘 이상 썼으면 쪽별(Claude·OpenRouter·로컬 서버·Codex) 합계도 보여요"
               ]
 }
