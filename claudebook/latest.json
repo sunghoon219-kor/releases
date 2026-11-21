@@ -1,35 +1,33 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.22.1",
-    "date":  "2026-11-21T13:04:06+09:00",
+    "version":  "0.22.2",
+    "date":  "2026-11-21T17:14:17+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.22.1-setup.exe",
-                      "size":  12785984,
-                      "sha256":  "0c671368c2f03ce9fa48097520c1e9dcb3a8094fbca1b0b1582b04112faedb44",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.1/ClaudeBook-0.22.1-setup.exe"
+                      "name":  "ClaudeBook-0.22.2-setup.exe",
+                      "size":  12949996,
+                      "sha256":  "be9a703929b4209b4312316e935b4804768de5e7973256d56c6af772f4e914b6",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.2/ClaudeBook-0.22.2-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-0.22.1.apk",
+                      "name":  "ClaudeBook-0.22.2.apk",
                       "size":  58630,
-                      "sha256":  "5ab4245388b56d43fc78b3189ddb46c52f6b3094f64a452bc6b952bd5fa939b5",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.1/ClaudeBook-0.22.1.apk"
+                      "sha256":  "224affc6544844d97138a064424a57dbcfdf17d0ef42bcdefcc79b1b14905ca1",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.2/ClaudeBook-0.22.2.apk"
                   },
                   {
-                      "name":  "ClaudeBook-guide-0.22.1.html",
-                      "size":  1882656,
-                      "sha256":  "56ccc0ec6fff5c915da98786a02b3b9d422194959753cb91a19d26afadbf9f18",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.1/ClaudeBook-guide-0.22.1.html"
+                      "name":  "ClaudeBook-guide-0.22.2.html",
+                      "size":  1904007,
+                      "sha256":  "ca01a54e08c3699dec647a397ce98b602c23ec65f9b5516cff58126f0f141a77",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.2/ClaudeBook-guide-0.22.2.html"
                   }
               ],
-    "signature":  "RHmoJVB5/3Jrj+jvm6EvVLdsEedZ9MIH7bTl1yxwF6HwbYggMXyA/lqT00MUVdLH4sxbcWauKWuebb8qWKDaDA==",
+    "signature":  "o+UJ2L+FtZI4gb9znFNQnvlLfOulhY2EMyXVH+3FyKfqbOscD/SJbEzIPhfMeRy3HULerf3vvrWy5JTzKbNGAQ==",
     "notes":  [
-                  "수정: 사무실에서 폴더를 고르면 기본 팀(민준·서연 …)이 저절로 만들어지던 것을 고쳤어요. 이제 팀은 직접 꾸리거나 보드에서 가져올 때만 생겨요",
-                  "개선: 스튜디오: 사무실의 방 하나가 스튜디오이고, 맨 위 PD → 팀장 → 팀원 구조예요. 지시는 위에서 아래로만 가고(PD는 팀장에게, 팀장은 팀원에게), 아래에서 위로는 질문만 해요. 팀원에게는 질문 도구만 줘요",
-                  "개선: 보드에서 가져오기: 보드를 스튜디오로 가져와요. PD를 고르면 나머지는 세션 이름으로 직책을 알아보고 아트팀·개발팀·기획팀 등으로 나눠 팀장을 정해요. 쓰던 세션과 이름, 대화 기록은 그대로예요",
-                  "개선: 직책: PD, 팀장급 TD(테크니컬 디렉터)·AD(아트 디렉터)·GD(게임 디렉터)·사운드 디렉터·QA 리드, 팀원 직책(프로그래머·원화가·3D 모델러·애니메이터·이펙트·UI·기획자·시나리오 등). 직책을 고르면 하는 일·규칙·팀이 함께 정해지고, PD·팀장급이면 자리도 옮겨요. 새 팀을 팀장 직책으로 만들면 팀 이름도 정해져요",
-                  "개선: 캐릭터를 끌어 다른 팀·PD 자리·+ 새 팀에 놓으면 자리를 옮겨요. 이미 쓰던 세션을 팀원·팀장·PD로 데려올 수도 있어요",
-                  "개선: PD·팀장·팀원의 결과는 윗사람이 시킨 일일 때만 위로 보고해요. 사용자가 직접 한 말과 아랫사람의 질문에 답한 턴은 위로 가지 않아요",
-                  "개선: 사무실 전부터 떠 있던 PD·팀장에게 처음 지시할 때 스튜디오 구조를 짧게 알려 줘요"
+                  "수정: 사무실에서 세션을 만들고 아직 대화하지 않은 에이전트가 자는 모습으로 보여 열리지 않은 것처럼 보이던 것을 고쳤어요",
+                  "수정: 팀원을 띄우지 못할 때(로컬 서버가 꺼졌거나 설정이 없는 등) PD·팀장이 답을 하염없이 기다리던 것을 고쳤어요. 이제 맡기는 순간 까닭을 알려 줘요",
+                  "개선: 사무실의 에이전트 설정에서 실행 쪽을 Claude · Codex · 로컬 서버(DGX Spark vLLM 등) · OpenRouter 중에서 골라요. 로컬 서버는 서버의 모델 목록에서, OpenRouter는 모델을 찾아 골라요. 보드에서 가져온 로컬·OpenRouter 세션도 그 쪽으로 알아봐요",
+                  "개선: 상태가 더 잘 보여요: 작업 중은 초록, 확인 필요는 주황(깜빡임), 끝남(아직 안 봄)은 파랑으로 자리 바닥과 이름표를 칠하고, 이름 아래에 \"작업 중·읽는 중·생각 중·명령 실행 중·확인 필요!·끝남\" 글이 붙어요",
+                  "개선: 위쪽 \"확인 필요 N\"을 누르면 확인이 필요한 에이전트의 대화를 열고 자리를 반짝여요 (누를 때마다 다음 사람)"
               ]
 }
