@@ -1,21 +1,23 @@
 {
     "name":  "MeetingMinutes",
-    "version":  "0.1.0",
-    "date":  "2026-11-23T21:27:45+09:00",
+    "version":  "0.2.0",
+    "date":  "2026-11-23T22:55:28+09:00",
     "files":  [
                   {
-                      "name":  "MeetingMinutes-0.1.0-win64.zip",
-                      "size":  20724423,
-                      "sha256":  "a03a422d566ee680b07801835bd25f09ef3751d9731bd19b54ed174339b8c8cc",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/meetingminutes-v0.1.0/MeetingMinutes-0.1.0-win64.zip"
+                      "name":  "MeetingMinutes-0.2.0-win64.zip",
+                      "size":  22932160,
+                      "sha256":  "84f7e1553c1787f766724bd382ba84a3f3e06de1672415f53a4c71b32b92df81",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/meetingminutes-v0.2.0/MeetingMinutes-0.2.0-win64.zip"
                   }
               ],
-    "signature":  "Y/2Sntih+l1QCngBZQXMTMA+fHljcS2g9n27tAoorClO6E7Jg9kZcIbqlbV73JlCyO0RiMhIASWDslyFSIbEDQ==",
+    "signature":  "D/phB28HVin1c4bgVc6AUiLAxSpUFUVI+O6Vk6W/G5bXjm//OEf+BrOQSi1iLvDLPOzdiZD35HykuJPxPDgFAw==",
     "notes":  [
-                  "개선: 녹음 파일을 \"회의록 만들기\" 위로 끌어다 놓으면 화자별 녹취록과 회의록(한 줄 요약 · 주요 논의 · 결정 사항 · 할 일 · 남은 질문)을 만듭니다",
-                  "개선: 받아쓰기는 Whisper large-v3-turbo, 화자 구분은 pyannote 방식으로 PC 안에서 하고, 회의록은 그 PC에 로그인한 Claude로 씁니다 (API 키 필요 없음)",
-                  "개선: 회의록 항목마다 근거가 된 발언의 녹음 시각 [mm:ss]를 붙이고, 녹취록에 없는 시각은 지웁니다",
-                  "개선: 참석자 수를 넣으면 목소리가 비슷한 사람도 나눠 구분합니다. 자기소개 등으로 드러난 이름은 회의록에 \"추정\"으로 적습니다",
-                  "개선: GPU 없는 PC에서 돌아가는 CPU 판입니다 (AVX2 CPU, 8코어 기준 녹음 길이의 약 45% 시간). 처음 한 번 음성 모델(약 0.9 GB)을 받습니다"
+                  "수정: 녹음 파일로 만들 때도 받아쓰기가 말소리 구간을 통째로 건너뛰면 그 구간만 다시 받아씁니다 (긴 덩어리에서 첫 문장이 빠지던 문제)",
+                  "개선: 회의 녹음 기능: \"회의 녹음\"을 더블클릭하면 마이크와 컴퓨터 소리(온라인 회의 상대 목소리)를 함께 녹음합니다",
+                  "개선: 녹음하는 동안 받아쓴 말을 [mm:ss]와 함께 바로 보여 줍니다. 회의 중에는 CPU를 다 쓰지 않게 줄여서 돌리고, 밀리면 얼마나 늦었는지 알려 줍니다",
+                  "개선: Enter로 녹음을 멈추면 남은 받아쓰기를 마치고 참석자 수를 물은 뒤 화자 구분과 회의록까지 이어서 만듭니다 (받아쓰기를 다시 하지 않아 회의가 끝난 뒤 기다리는 시간이 짧습니다)",
+                  "개선: 녹음 파일은 5초마다 저장되어 프로그램이 갑자기 꺼져도 그때까지 녹음이 남습니다. 결과는 문서\\회의록 폴더에 생깁니다",
+                  "개선: 마이크 소리가 들어오지 않으면(음소거 · 접근 차단) 알려 주고, 장치가 빠졌다 다시 꽂히면 다시 연결합니다",
+                  "개선: 마이크가 없는 PC에서는 컴퓨터 소리만 녹음합니다 (온라인 회의용). 출력 장치가 없으면 마이크만 녹음합니다"
               ]
 }
