@@ -1,32 +1,30 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.22.11",
-    "date":  "2026-11-23T21:20:43+09:00",
+    "version":  "0.22.12",
+    "date":  "2026-11-24T08:57:33+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.22.11-setup.exe",
-                      "size":  13573718,
-                      "sha256":  "39bfb7de27a064c750216688aa0502e37a88c11d176ea091ca40f17aa440cdb8",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.11/ClaudeBook-0.22.11-setup.exe"
+                      "name":  "ClaudeBook-0.22.12-setup.exe",
+                      "size":  13574086,
+                      "sha256":  "0cbd854a044c2b42a439e4010e603de71268af0bcb33ee1d6b15adcf1750b917",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.12/ClaudeBook-0.22.12-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-0.22.11.apk",
+                      "name":  "ClaudeBook-0.22.12.apk",
                       "size":  62726,
-                      "sha256":  "42d861af0bf241c8caf822a666d055cc57da43797e7bb983f87a3190f7c69762",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.11/ClaudeBook-0.22.11.apk"
+                      "sha256":  "5e502420c375c55e1dddd5857ae16e9fae0c1011516b396582b761ae81a309b2",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.12/ClaudeBook-0.22.12.apk"
                   },
                   {
-                      "name":  "ClaudeBook-guide-0.22.11.html",
+                      "name":  "ClaudeBook-guide-0.22.12.html",
                       "size":  2490278,
-                      "sha256":  "5db0669bf5af633e4042dca0be327ef6d3647cda8c7c75e02d7dd00813f1fdba",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.11/ClaudeBook-guide-0.22.11.html"
+                      "sha256":  "df4431233378e19c569bfb328ce8dba6e92d36da782cb773a1dc027b20d0b36a",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.12/ClaudeBook-guide-0.22.12.html"
                   }
               ],
-    "signature":  "BuWLTmre2pukbk5tqOWN9H20zfbvr3NEZNOkALyBigPVfdNYXeUgAZyZ5P/K4mfQHEQZkXe/eq73vJwkuoqVBw==",
+    "signature":  "+MS3QfGXe7tYp2GcdbL9W3HqKIqAPObGf6tPV2OHcOkYKP2zdS3tVJ2fdl6b/uWeG9Sxxad3fByluFw2vHRuAw==",
     "notes":  [
-                  "수정: 이미 끝난 명령·출력 줄이 대화 맨 아래에 붙어 흐름을 끊던 것을 고쳤어요. claude 출력으로 먼저 받은 줄이 사무실 대화 칸·폰 화면에서는 정리되지 않고 세션 내내 쌓였다가, 큰 기록을 끝부분만 읽은 칸에서 \"아직 기록에 없는 줄\"로 보여 맨 아래에 나타났어요. 이제 그 칸이 이미 읽은 줄보다 앞에 받은 것은 그리지 않고, 사무실 칸·폰 화면 것도 정리해요",
-                  "수정: 사무실: PD·팀장이 사용자에게 답하자마자 모여 있던 보고가 넘어가 보고 처리 턴이 그 답을 밀어 올리던 것(\"보였다가 다 사라짐\")을 고쳤어요. 이제 사용자 말에 답한 뒤 1분, 사용자에게 물은 결정을 기다리는 동안(15분까지)은 보고를 미뤘다가 넘겨요",
-                  "수정: 사무실: 기다리지 않고 물은 질문의 늦게 온 답을 \"지시\"로 보내, 받은 쪽이 다시 보고하고 윗사람이 또 받는 맞장구가 이어지던 것을 고쳤어요. 이제 \"답\"으로 보내고 그 턴은 위로 보고하지 않아요",
-                  "수정: 대화 칸: 에이전트끼리 오간 긴 말(보고 묶음 등)은 앞 8줄만 보이고 \"… N줄 더 보기\"로 펼쳐요. 질문·답·기록 요청도 \"나\"가 아니라 보낸 쪽 이름으로 보여요. 묶음 보고 이름표는 \"작업자 보고 14건 (TD, AD)\"처럼"
+                  "수정: 고른 모델·에포트가 자꾸 풀리던 것을 고쳤어요. 대화 칸·우클릭에서 고른 모델은 어디에도 저장되지 않아, 세션을 다시 띄우면 claude가 그 세션에서 전에 쓰던 모델(예: Fable)로 돌아갔어요. 사무실 설정의 모델·에포트는 처음 만드는 세션에만 쓰여서, 이미 대화한 사람은 바꿔도 적용되지 않았어요. 이제 모델도 세션마다 저장하고, 다시 띄울 때 늘 그 값으로 띄워요",
+                  "수정: 사무실: 대화 칸·우클릭에서 고른 모델·에포트가 그 사람의 사무실 설정에도 남고, 설정 창에서 바꾸면 떠 있는 세션에도 바로 적용돼요(\"다음에 띄울 때\"까지 미루지 않아요). 켤 때 세션에 남아 있던 에포트는 비어 있는 사무실 설정으로 옮겨요"
               ]
 }
