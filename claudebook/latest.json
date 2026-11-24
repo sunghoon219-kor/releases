@@ -1,30 +1,30 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.22.12",
-    "date":  "2026-11-24T08:57:33+09:00",
+    "version":  "0.22.13",
+    "date":  "2026-11-24T09:49:28+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.22.12-setup.exe",
-                      "size":  13574086,
-                      "sha256":  "0cbd854a044c2b42a439e4010e603de71268af0bcb33ee1d6b15adcf1750b917",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.12/ClaudeBook-0.22.12-setup.exe"
+                      "name":  "ClaudeBook-0.22.13-setup.exe",
+                      "size":  13588617,
+                      "sha256":  "31fc6592d42eec73fa21a668fe004dd1d08a561c94de63631f483bb38ad99d74",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.13/ClaudeBook-0.22.13-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-0.22.12.apk",
+                      "name":  "ClaudeBook-0.22.13.apk",
                       "size":  62726,
-                      "sha256":  "5e502420c375c55e1dddd5857ae16e9fae0c1011516b396582b761ae81a309b2",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.12/ClaudeBook-0.22.12.apk"
+                      "sha256":  "7b9c2936acc510ec00b7b70c6ffb1019cc7bb575d06446c9d91f3e43daa9048e",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.13/ClaudeBook-0.22.13.apk"
                   },
                   {
-                      "name":  "ClaudeBook-guide-0.22.12.html",
+                      "name":  "ClaudeBook-guide-0.22.13.html",
                       "size":  2490278,
-                      "sha256":  "df4431233378e19c569bfb328ce8dba6e92d36da782cb773a1dc027b20d0b36a",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.12/ClaudeBook-guide-0.22.12.html"
+                      "sha256":  "597fdd6d00fc8bebcce32b09e0b4ed4ba34c82c62ce39a854969bd50210c2e51",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.13/ClaudeBook-guide-0.22.13.html"
                   }
               ],
-    "signature":  "+MS3QfGXe7tYp2GcdbL9W3HqKIqAPObGf6tPV2OHcOkYKP2zdS3tVJ2fdl6b/uWeG9Sxxad3fByluFw2vHRuAw==",
+    "signature":  "nOFA5xV5eQqbcerwtYu5C+e++F5k1Bvl0F+OJbOxPkocF8nrLrSmYbWMFTnFyOjQdCqD7wOZOiFm54djOCO8Bg==",
     "notes":  [
-                  "수정: 고른 모델·에포트가 자꾸 풀리던 것을 고쳤어요. 대화 칸·우클릭에서 고른 모델은 어디에도 저장되지 않아, 세션을 다시 띄우면 claude가 그 세션에서 전에 쓰던 모델(예: Fable)로 돌아갔어요. 사무실 설정의 모델·에포트는 처음 만드는 세션에만 쓰여서, 이미 대화한 사람은 바꿔도 적용되지 않았어요. 이제 모델도 세션마다 저장하고, 다시 띄울 때 늘 그 값으로 띄워요",
-                  "수정: 사무실: 대화 칸·우클릭에서 고른 모델·에포트가 그 사람의 사무실 설정에도 남고, 설정 창에서 바꾸면 떠 있는 세션에도 바로 적용돼요(\"다음에 띄울 때\"까지 미루지 않아요). 켤 때 세션에 남아 있던 에포트는 비어 있는 사무실 설정으로 옮겨요"
+                  "수정: 사무실: 모델을 한 번도 고르지 않은 사람(설정이 \"기본\")이 다시 뜰 때마다 그 세션이 전에 쓰던 모델(예: Fable)로 계속 돌던 것을 고쳤어요. 이제 사무실 설정 → 그 세션에서 고른 모델 → 사용자의 claude 기본 모델(~/.claude/settings.json) 순서로 늘 모델을 정해 띄워요. 업데이트 전부터 떠 있던 세션도 1분 안에 그 모델·에포트로 바꿔요",
+                  "수정: 사무실: 자동 압축을 모델 창의 70%에서 해요 (claude 기본은 거의 다 찼을 때, 1M 모델이면 약 96만 토큰). 1M 모델은 약 70만, Haiku는 약 14만에서 압축하고, 업무 일지 요청은 그 85%(1M 모델이면 약 60만)에 가요. 이미 떠 있는 사무실 세션은 쉬는 틈에 다시 띄워 적용해요"
               ]
 }
