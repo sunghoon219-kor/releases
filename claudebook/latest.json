@@ -1,30 +1,32 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.22.13",
-    "date":  "2026-11-24T09:49:28+09:00",
+    "version":  "0.22.14",
+    "date":  "2026-11-24T10:36:24+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.22.13-setup.exe",
-                      "size":  13588617,
-                      "sha256":  "31fc6592d42eec73fa21a668fe004dd1d08a561c94de63631f483bb38ad99d74",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.13/ClaudeBook-0.22.13-setup.exe"
+                      "name":  "ClaudeBook-0.22.14-setup.exe",
+                      "size":  13585425,
+                      "sha256":  "7592b6bd15e71ba16633d162a5365362bcd4a2c8b945e35ee18e6403c36b0085",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.14/ClaudeBook-0.22.14-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-0.22.13.apk",
+                      "name":  "ClaudeBook-0.22.14.apk",
                       "size":  62726,
-                      "sha256":  "7b9c2936acc510ec00b7b70c6ffb1019cc7bb575d06446c9d91f3e43daa9048e",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.13/ClaudeBook-0.22.13.apk"
+                      "sha256":  "be58228035639d3e4f88ffcd92b6fd2f5065ae647f944927a93f9a885727d3a5",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.14/ClaudeBook-0.22.14.apk"
                   },
                   {
-                      "name":  "ClaudeBook-guide-0.22.13.html",
-                      "size":  2490278,
-                      "sha256":  "597fdd6d00fc8bebcce32b09e0b4ed4ba34c82c62ce39a854969bd50210c2e51",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.13/ClaudeBook-guide-0.22.13.html"
+                      "name":  "ClaudeBook-guide-0.22.14.html",
+                      "size":  2490554,
+                      "sha256":  "5112d62cb72e5d4fe6c265d6bfebea11b1d41bca404259c43f967085cc0c34af",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.14/ClaudeBook-guide-0.22.14.html"
                   }
               ],
-    "signature":  "nOFA5xV5eQqbcerwtYu5C+e++F5k1Bvl0F+OJbOxPkocF8nrLrSmYbWMFTnFyOjQdCqD7wOZOiFm54djOCO8Bg==",
+    "signature":  "pD+rDvlhNi7r72k+Ap+C0dvGm3sCmIYyE3gnk4NVl6Lyecn+NDd8+cTC4+mSLbm+I0hFow1GEBHlwos24jUCBg==",
     "notes":  [
-                  "수정: 사무실: 모델을 한 번도 고르지 않은 사람(설정이 \"기본\")이 다시 뜰 때마다 그 세션이 전에 쓰던 모델(예: Fable)로 계속 돌던 것을 고쳤어요. 이제 사무실 설정 → 그 세션에서 고른 모델 → 사용자의 claude 기본 모델(~/.claude/settings.json) 순서로 늘 모델을 정해 띄워요. 업데이트 전부터 떠 있던 세션도 1분 안에 그 모델·에포트로 바꿔요",
-                  "수정: 사무실: 자동 압축을 모델 창의 70%에서 해요 (claude 기본은 거의 다 찼을 때, 1M 모델이면 약 96만 토큰). 1M 모델은 약 70만, Haiku는 약 14만에서 압축하고, 업무 일지 요청은 그 85%(1M 모델이면 약 60만)에 가요. 이미 떠 있는 사무실 세션은 쉬는 틈에 다시 띄워 적용해요"
+                  "수정: 컨텍스트 %가 실제보다 높게 보이던 것을 고쳤어요. 자동 압축을 70%로 당기려고 압축 창을 줄여 띄우면 claude가 줄인 창(1M 모델이면 73.3만) 기준으로 알려 줘, 실제로는 69%인데 93%로 보였어요. 이제 대화 칸의 고리, 마우스를 올리면 보이는 설명, /context 화면 모두 실제 모델 창 기준이고 \"70만 토큰(70%)에 이르면 자동 요약\"처럼 기준도 함께 보여요",
+                  "개선: 사무실: 모든 사람의 컨텍스트 사용량을 자리 오른쪽 위(머리 옆)에 단추로 띄워요. 기록 파일의 마지막 호출 크기로 재서 작업 중에도 바뀌고, 자동 요약 기준에 가까울수록 주황·빨강이에요. 마우스를 올리면 토큰 수와 기준이 보여요",
+                  "개선: 사무실: 그 단추를 누르면 지금 요약해요. 업무 일지에 진행·결정·다음 할 일을 먼저 적게 하고, 그 턴이 끝나면 /compact를 보내요 (단추에 \"요약 대기\" → \"요약 중\"). 요약이 끝나면 늘 하던 대로 일지를 다시 읽게 해요",
+                  "개선: 대화 칸의 컨텍스트 고리도 누르면 지금 요약해요 (작업 중이면 그 턴이 끝난 뒤, 사무실 사람이면 일지를 먼저 적게 함)"
               ]
 }
