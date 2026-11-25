@@ -1,31 +1,29 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.22.15",
-    "date":  "2026-11-25T00:33:25+09:00",
+    "version":  "0.22.16",
+    "date":  "2026-11-25T11:21:37+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.22.15-setup.exe",
-                      "size":  13593747,
-                      "sha256":  "64f7a44f2f7c94d929da5a771f31e1ca7f60ee5a67083d0c2d2fba4f68adca67",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.15/ClaudeBook-0.22.15-setup.exe"
+                      "name":  "ClaudeBook-0.22.16-setup.exe",
+                      "size":  13590663,
+                      "sha256":  "0fa44303780f90ae68700cf462e252d36430249c1f05e4478773e1882062fcd5",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.16/ClaudeBook-0.22.16-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-0.22.15.apk",
+                      "name":  "ClaudeBook-0.22.16.apk",
                       "size":  62726,
-                      "sha256":  "d16d27ab4821294fbb93beb57f4a17fff9e4298db31f2ad63df3f76715ecbcaf",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.15/ClaudeBook-0.22.15.apk"
+                      "sha256":  "d2da4541d2fd4ace38e4dea3f0878076f38ba4ee69d657c9a9addde965296582",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.16/ClaudeBook-0.22.16.apk"
                   },
                   {
-                      "name":  "ClaudeBook-guide-0.22.15.html",
+                      "name":  "ClaudeBook-guide-0.22.16.html",
                       "size":  2490554,
-                      "sha256":  "c455ed2daba6f82b7bfff9dd18c0e1a69db6e6790ac29f18b6120dec6d7875c2",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.15/ClaudeBook-guide-0.22.15.html"
+                      "sha256":  "78b570f093c899f536988d5758bce925db0d2812fbf9007214b5ceaa01d1eb53",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.16/ClaudeBook-guide-0.22.16.html"
                   }
               ],
-    "signature":  "WATtrOAgfj+U8+P0AEk7rEJfxq+y3+UYLNWn0PFielQCSFEtl2teQh6g3FAsPjasxXmOCmtIF/xuDfzHkGRLDg==",
+    "signature":  "OPK/vYvkBYvSF6oSZi82syeL64XJj/KpkfGIQwXvf/MY6YXOYjCxKN9yaXgfKEInX2xOVCk2+NDFTn4ofUkGBw==",
     "notes":  [
-                  "수정: 사무실: 컨텍스트가 자동 요약 기준(70%)을 넘었는데도 요약되지 않고 72%처럼 남아 있던 것을 고쳤어요. claude는 요청을 보내기 직전에만 기준을 봐서, 마지막 요청이 기준 아래였으면 답·도구 결과로 기준을 넘겨도 턴이 끝나고 다음 말이 올 때까지 그대로 있었어요. 이제 기준을 넘긴 채 쉬는 사람은 ClaudeBook이 바로 요약(/compact)하고, 끝나면 늘 하던 대로 업무 일지를 다시 읽게 해요",
-                  "수정: 사무실: 일하는 중에 컨텍스트 단추를 누르면 하던 일이 멈춘 것처럼 되던 것을 고쳤어요. 일지 요청이 하던 턴 가운데 끼어 그 턴이 \"기록함\"으로 끝나 윗사람에게 일 결과 대신 \"기록함\"이 갔고, 요약 뒤 이어 한 일은 기록 턴으로 여겨져 보고되지 않았어요. 이제 하던 턴이 끝날 때까지 기다렸다가 일지를 적게 하고 요약하며, 요약 뒤 맡은 일을 이어 하면 보통처럼 윗사람에게 보고해요",
-                  "수정: /compact를 사용자 말로 여겨 그 뒤 턴이 윗사람에게 보고되지 않던 것을 고쳤어요 (요약은 누가 시킨 일인지 바꾸지 않아요)"
+                  "개선: 사무실: 기준을 넘긴 채 쉬는 사람을 요약하는 판단을 2초마다 모든 사람의 기록 파일을 보던 방식에서, 턴이 끝나 claude가 잰 컨텍스트 사용량이 도착하는 순간 한 번 보는 방식으로 바꿨어요. 기준을 넘는 일은 턴 안에서만 생기니 놓치는 것 없이 더 가볍고, claude가 쓰는 기준 그대로 판단해요"
               ]
 }
