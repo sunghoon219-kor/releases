@@ -1,29 +1,29 @@
 {
     "name":  "ClaudeBook",
-    "version":  "0.22.16",
-    "date":  "2026-11-25T11:21:37+09:00",
+    "version":  "0.22.17",
+    "date":  "2026-11-25T16:00:30+09:00",
     "files":  [
                   {
-                      "name":  "ClaudeBook-0.22.16-setup.exe",
-                      "size":  13590663,
-                      "sha256":  "0fa44303780f90ae68700cf462e252d36430249c1f05e4478773e1882062fcd5",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.16/ClaudeBook-0.22.16-setup.exe"
+                      "name":  "ClaudeBook-0.22.17-setup.exe",
+                      "size":  13593375,
+                      "sha256":  "7b5f9a76ef3e043794436194f955f9ff8f7f5953d39d719c41524e80a18ca597",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.17/ClaudeBook-0.22.17-setup.exe"
                   },
                   {
-                      "name":  "ClaudeBook-0.22.16.apk",
+                      "name":  "ClaudeBook-0.22.17.apk",
                       "size":  62726,
-                      "sha256":  "d2da4541d2fd4ace38e4dea3f0878076f38ba4ee69d657c9a9addde965296582",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.16/ClaudeBook-0.22.16.apk"
+                      "sha256":  "93321a0cb1e4087d528d7a66cb1e64a98d78355723c280299471ecd20b4a9e34",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.17/ClaudeBook-0.22.17.apk"
                   },
                   {
-                      "name":  "ClaudeBook-guide-0.22.16.html",
+                      "name":  "ClaudeBook-guide-0.22.17.html",
                       "size":  2490554,
-                      "sha256":  "78b570f093c899f536988d5758bce925db0d2812fbf9007214b5ceaa01d1eb53",
-                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.16/ClaudeBook-guide-0.22.16.html"
+                      "sha256":  "d35c5a6bd27a32bed4c2f280f56bdef48bffdc87ce56308692e63782063c7dd6",
+                      "url":  "https://github.com/sunghoon219-kor/releases/releases/download/claudebook-v0.22.17/ClaudeBook-guide-0.22.17.html"
                   }
               ],
-    "signature":  "OPK/vYvkBYvSF6oSZi82syeL64XJj/KpkfGIQwXvf/MY6YXOYjCxKN9yaXgfKEInX2xOVCk2+NDFTn4ofUkGBw==",
+    "signature":  "OupHi5TcYcQbnrAXjd+y0ay0vPmS43vRQ/qw7A+cvk9InLpdjIBVNuxLoAwPm5wQKDxDblF9AUMC1bIEeA2VCg==",
     "notes":  [
-                  "개선: 사무실: 기준을 넘긴 채 쉬는 사람을 요약하는 판단을 2초마다 모든 사람의 기록 파일을 보던 방식에서, 턴이 끝나 claude가 잰 컨텍스트 사용량이 도착하는 순간 한 번 보는 방식으로 바꿨어요. 기준을 넘는 일은 턴 안에서만 생기니 놓치는 것 없이 더 가볍고, claude가 쓰는 기준 그대로 판단해요"
+                  "수정: 업데이트하거나 끌 때마다 ClaudeBook이 오류(0x87A)로 끝나며 덤프 파일(35MB)을 남기고 종료가 몇 초 늦어지던 것. 앱이 끝날 때 화면 장치를 놓다가 그래픽 드라이버(DXGI)가 거부해 생긴 일로, 저장과 설치는 그동안에도 정상이었어요. 이 판으로 업데이트할 때는 끝나는 앞판이 고치기 전이라 한 번 더 남을 수 있어요"
               ]
 }
